@@ -1,0 +1,25 @@
+<svg id="study" xmlns="http://www.w3.org/2000/svg" width="59" height="58.424" viewBox="0 0 59 58.424">
+  <g id="Ellisse_31" data-name="Ellisse 31" transform="translate(18)" fill="rgba(255,255,255,0)" stroke="#000" stroke-width="1.5">
+    <circle cx="11.5" cy="11.5" r="11.5" stroke="none"/>
+    <circle cx="11.5" cy="11.5" r="10.75" fill="none"/>
+  </g>
+  <line id="Linea_274" data-name="Linea 274" x2="11" y2="7" transform="translate(34.5 21.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1.5"/>
+  <line id="Linea_275" data-name="Linea 275" y1="6" transform="translate(54.5 44.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1.5"/>
+  <g id="Ellisse_32" data-name="Ellisse 32" transform="translate(50 33)" fill="rgba(255,255,255,0)" stroke="#000" stroke-width="1.5">
+    <ellipse cx="4.5" cy="5.5" rx="4.5" ry="5.5" stroke="none"/>
+    <ellipse cx="4.5" cy="5.5" rx="3.75" ry="4.75" fill="none"/>
+  </g>
+  <line id="Linea_276" data-name="Linea 276" y1="6" transform="translate(54.5 26.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1.5"/>
+  <line id="Linea_277" data-name="Linea 277" y1="6" x2="25" transform="translate(29.5 26.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1.5"/>
+  <line id="Linea_278" data-name="Linea 278" x1="25" y1="6" transform="translate(4.5 26.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1.5"/>
+  <line id="Linea_279" data-name="Linea 279" y1="6" transform="translate(4.5 26.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1.5"/>
+  <line id="Linea_280" data-name="Linea 280" y1="6" transform="translate(4.5 44.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1.5"/>
+  <line id="Linea_281" data-name="Linea 281" y1="25" transform="translate(29.5 32.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1.5"/>
+  <line id="Linea_282" data-name="Linea 282" x1="11" y2="7" transform="translate(13.5 21.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1.5"/>
+  <line id="Linea_283" data-name="Linea 283" y1="7" x2="25" transform="translate(29.5 50.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1.5"/>
+  <line id="Linea_284" data-name="Linea 284" x1="25" y1="7" transform="translate(4.5 50.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1.5"/>
+  <g id="Ellisse_33" data-name="Ellisse 33" transform="translate(0 33)" fill="rgba(255,255,255,0)" stroke="#000" stroke-width="1.5">
+    <ellipse cx="4.5" cy="5.5" rx="4.5" ry="5.5" stroke="none"/>
+    <ellipse cx="4.5" cy="5.5" rx="3.75" ry="4.75" fill="none"/>
+  </g>
+</svg>
