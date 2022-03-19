@@ -1,0 +1,90 @@
+<svg id="Componente_12_1" data-name="Componente 12 – 1" xmlns="http://www.w3.org/2000/svg" width="376.625" height="373.213" viewBox="0 0 376.625 373.213">
+  <g id="study">
+    <g id="Ellisse_31" data-name="Ellisse 31" transform="translate(114.903)" fill="none" stroke="#00b1ff" stroke-width="10">
+      <circle cx="73.41" cy="73.41" r="73.41" stroke="none"/>
+      <circle cx="73.41" cy="73.41" r="68.41" fill="none"/>
+    </g>
+    <line id="Linea_274" data-name="Linea 274" x2="70.218" y2="44.684" transform="translate(220.23 137.245)" fill="none" stroke="#00b1ff" stroke-linecap="round" stroke-width="10"/>
+    <line id="Linea_275" data-name="Linea 275" y1="38.301" transform="translate(347.899 284.065)" fill="none" stroke="#00b1ff" stroke-linecap="round" stroke-width="10"/>
+    <g id="Ellisse_32" data-name="Ellisse 32" transform="translate(319.174 210.655)" fill="none" stroke="#00b1ff" stroke-width="10">
+      <ellipse cx="28.726" cy="35.109" rx="28.726" ry="35.109" stroke="none"/>
+      <ellipse cx="28.726" cy="35.109" rx="23.726" ry="30.109" fill="none"/>
+    </g>
+    <line id="Linea_276" data-name="Linea 276" y1="38.301" transform="translate(347.899 169.162)" fill="none" stroke="#00b1ff" stroke-linecap="round" stroke-width="10"/>
+    <line id="Linea_277" data-name="Linea 277" y1="38.301" x2="159.587" transform="translate(188.313 169.162)" fill="none" stroke="#00b1ff" stroke-linecap="round" stroke-width="10"/>
+    <line id="Linea_278" data-name="Linea 278" x1="159.587" y1="38.301" transform="translate(28.726 169.162)" fill="none" stroke="#00b1ff" stroke-linecap="round" stroke-width="10"/>
+    <line id="Linea_279" data-name="Linea 279" y1="38.301" transform="translate(28.726 169.162)" fill="none" stroke="#00b1ff" stroke-linecap="round" stroke-width="10"/>
+    <line id="Linea_280" data-name="Linea 280" y1="38.301" transform="translate(28.726 284.065)" fill="none" stroke="#00b1ff" stroke-linecap="round" stroke-width="10"/>
+    <line id="Linea_281" data-name="Linea 281" y1="159.587" transform="translate(188.313 207.463)" fill="none" stroke="#00b1ff" stroke-linecap="round" stroke-width="10"/>
+    <line id="Linea_282" data-name="Linea 282" x1="70.218" y2="44.684" transform="translate(86.177 137.245)" fill="none" stroke="#00b1ff" stroke-linecap="round" stroke-width="10"/>
+    <line id="Linea_283" data-name="Linea 283" y1="44.684" x2="159.587" transform="translate(188.313 322.365)" fill="none" stroke="#00b1ff" stroke-linecap="round" stroke-width="10"/>
+    <line id="Linea_284" data-name="Linea 284" x1="159.587" y1="44.684" transform="translate(28.726 322.365)" fill="none" stroke="#00b1ff" stroke-linecap="round" stroke-width="10"/>
+    <g id="Ellisse_33" data-name="Ellisse 33" transform="translate(0 210.655)" fill="none" stroke="#00b1ff" stroke-width="10">
+      <ellipse cx="28.726" cy="35.109" rx="28.726" ry="35.109" stroke="none"/>
+      <ellipse cx="28.726" cy="35.109" rx="23.726" ry="30.109" fill="none"/>
+    </g>
+  </g>
+  <rect id="Rettangolo_15" data-name="Rettangolo 15" width="33" height="32" transform="translate(171.813 174.275)" fill="none"/>
+  <rect id="Rettangolo_16" data-name="Rettangolo 16" width="33" height="32" transform="translate(142.813 167.275)" fill="none"/>
+  <rect id="Rettangolo_17" data-name="Rettangolo 17" width="33" height="32" transform="translate(115.813 160.275)" fill="none"/>
+  <rect id="Rettangolo_18" data-name="Rettangolo 18" width="33" height="32" transform="translate(127.813 151.275)" fill="none"/>
+  <rect id="Rettangolo_19" data-name="Rettangolo 19" width="33" height="32" transform="translate(142.813 140.275)" fill="none"/>
+  <rect id="Rettangolo_20" data-name="Rettangolo 20" width="33" height="32" transform="translate(167.813 144.275)" fill="none"/>
+  <rect id="Rettangolo_21" data-name="Rettangolo 21" width="33" height="32" transform="translate(190.813 140.275)" fill="none"/>
+  <rect id="Rettangolo_22" data-name="Rettangolo 22" width="33" height="32" transform="translate(191.813 167.275)" fill="none"/>
+  <rect id="Rettangolo_23" data-name="Rettangolo 23" width="41" height="40" transform="translate(212.813 154.275)" fill="none"/>
+  <rect id="Rettangolo_24" data-name="Rettangolo 24" width="33" height="32" transform="translate(205.813 143.275)" fill="none"/>
+  <rect id="Rettangolo_25" data-name="Rettangolo 25" width="41" height="40" transform="translate(212.813 154.275)" fill="none"/>
+  <path id="Poligono_1" data-name="Poligono 1" d="M10.887,0,21.775,25.675H0Z" transform="matrix(-0.035, -0.999, 0.999, -0.035, 93.138, 189.933)" fill="none"/>
+  <path id="Poligono_2" data-name="Poligono 2" d="M12.887,0,25.775,30.675H0Z" transform="translate(283.415 167.879) rotate(99)" fill="none"/>
+  <g id="study-2" data-name="study">
+    <g id="Ellisse_31-2" data-name="Ellisse 31" transform="translate(114.903)" fill="none" stroke="#00b1ff" stroke-width="10">
+      <circle cx="73.41" cy="73.41" r="73.41" stroke="none"/>
+      <circle cx="73.41" cy="73.41" r="68.41" fill="none"/>
+    </g>
+    <line id="Linea_274-2" data-name="Linea 274" x2="70.218" y2="44.684" transform="translate(220.23 137.245)" fill="none" stroke="#00b1ff" stroke-linecap="round" stroke-width="10"/>
+    <line id="Linea_275-2" data-name="Linea 275" y1="38.301" transform="translate(347.899 284.065)" fill="none" stroke="#00b1ff" stroke-linecap="round" stroke-width="10"/>
+    <g id="Ellisse_32-2" data-name="Ellisse 32" transform="translate(319.174 210.655)" fill="none" stroke="#00b1ff" stroke-width="10">
+      <ellipse cx="28.726" cy="35.109" rx="28.726" ry="35.109" stroke="none"/>
+      <ellipse cx="28.726" cy="35.109" rx="23.726" ry="30.109" fill="none"/>
+    </g>
+    <line id="Linea_276-2" data-name="Linea 276" y1="38.301" transform="translate(347.899 169.162)" fill="none" stroke="#00b1ff" stroke-linecap="round" stroke-width="10"/>
+    <line id="Linea_277-2" data-name="Linea 277" y1="38.301" x2="159.587" transform="translate(188.313 169.162)" fill="none" stroke="#00b1ff" stroke-linecap="round" stroke-width="10"/>
+    <line id="Linea_278-2" data-name="Linea 278" x1="159.587" y1="38.301" transform="translate(28.726 169.162)" fill="none" stroke="#00b1ff" stroke-linecap="round" stroke-width="10"/>
+    <line id="Linea_279-2" data-name="Linea 279" y1="38.301" transform="translate(28.726 169.162)" fill="none" stroke="#00b1ff" stroke-linecap="round" stroke-width="10"/>
+    <line id="Linea_280-2" data-name="Linea 280" y1="38.301" transform="translate(28.726 284.065)" fill="none" stroke="#00b1ff" stroke-linecap="round" stroke-width="10"/>
+    <line id="Linea_281-2" data-name="Linea 281" y1="159.587" transform="translate(188.313 207.463)" fill="none" stroke="#00b1ff" stroke-linecap="round" stroke-width="10"/>
+    <line id="Linea_282-2" data-name="Linea 282" x1="70.218" y2="44.684" transform="translate(86.177 137.245)" fill="none" stroke="#00b1ff" stroke-linecap="round" stroke-width="10"/>
+    <line id="Linea_283-2" data-name="Linea 283" y1="44.684" x2="159.587" transform="translate(188.313 322.365)" fill="none" stroke="#00b1ff" stroke-linecap="round" stroke-width="10"/>
+    <line id="Linea_284-2" data-name="Linea 284" x1="159.587" y1="44.684" transform="translate(28.726 322.365)" fill="none" stroke="#00b1ff" stroke-linecap="round" stroke-width="10"/>
+    <g id="Ellisse_33-2" data-name="Ellisse 33" transform="translate(0 210.655)" fill="none" stroke="#00b1ff" stroke-width="10">
+      <ellipse cx="28.726" cy="35.109" rx="28.726" ry="35.109" stroke="none"/>
+      <ellipse cx="28.726" cy="35.109" rx="23.726" ry="30.109" fill="none"/>
+    </g>
+  </g>
+  <g id="study-3" data-name="study">
+    <g id="Ellisse_31-3" data-name="Ellisse 31" transform="translate(114.902)" fill="none" stroke="#00b1ff" stroke-width="10">
+      <circle cx="73.41" cy="73.41" r="73.41" stroke="none"/>
+      <circle cx="73.41" cy="73.41" r="68.41" fill="none"/>
+    </g>
+    <line id="Linea_274-3" data-name="Linea 274" x2="70.218" y2="44.684" transform="translate(220.23 137.245)" fill="none" stroke="#00b1ff" stroke-linecap="round" stroke-width="10"/>
+    <line id="Linea_275-3" data-name="Linea 275" y1="38.301" transform="translate(347.899 284.064)" fill="none" stroke="#00b1ff" stroke-linecap="round" stroke-width="10"/>
+    <g id="Ellisse_32-3" data-name="Ellisse 32" transform="translate(319.174 210.655)" fill="none" stroke="#00b1ff" stroke-width="10">
+      <ellipse cx="28.726" cy="35.109" rx="28.726" ry="35.109" stroke="none"/>
+      <ellipse cx="28.726" cy="35.109" rx="23.726" ry="30.109" fill="none"/>
+    </g>
+    <line id="Linea_276-3" data-name="Linea 276" y1="38.301" transform="translate(347.899 169.162)" fill="none" stroke="#00b1ff" stroke-linecap="round" stroke-width="10"/>
+    <line id="Linea_277-3" data-name="Linea 277" y1="38.301" x2="159.587" transform="translate(188.313 169.162)" fill="none" stroke="#00b1ff" stroke-linecap="round" stroke-width="10"/>
+    <line id="Linea_278-3" data-name="Linea 278" x1="159.587" y1="38.301" transform="translate(28.726 169.162)" fill="none" stroke="#00b1ff" stroke-linecap="round" stroke-width="10"/>
+    <line id="Linea_279-3" data-name="Linea 279" y1="38.301" transform="translate(28.726 169.162)" fill="none" stroke="#00b1ff" stroke-linecap="round" stroke-width="10"/>
+    <line id="Linea_280-3" data-name="Linea 280" y1="38.301" transform="translate(28.726 284.064)" fill="none" stroke="#00b1ff" stroke-linecap="round" stroke-width="10"/>
+    <line id="Linea_281-3" data-name="Linea 281" y1="159.587" transform="translate(188.313 207.463)" fill="none" stroke="#00b1ff" stroke-linecap="round" stroke-width="10"/>
+    <line id="Linea_282-3" data-name="Linea 282" x1="70.218" y2="44.684" transform="translate(86.177 137.245)" fill="none" stroke="#00b1ff" stroke-linecap="round" stroke-width="10"/>
+    <line id="Linea_283-3" data-name="Linea 283" y1="44.684" x2="159.587" transform="translate(188.313 322.365)" fill="none" stroke="#00b1ff" stroke-linecap="round" stroke-width="10"/>
+    <line id="Linea_284-3" data-name="Linea 284" x1="159.587" y1="44.684" transform="translate(28.726 322.365)" fill="none" stroke="#00b1ff" stroke-linecap="round" stroke-width="10"/>
+    <g id="Ellisse_33-3" data-name="Ellisse 33" transform="translate(0 210.655)" fill="none" stroke="#00b1ff" stroke-width="10">
+      <ellipse cx="28.726" cy="35.109" rx="28.726" ry="35.109" stroke="none"/>
+      <ellipse cx="28.726" cy="35.109" rx="23.726" ry="30.109" fill="none"/>
+    </g>
+  </g>
+</svg>

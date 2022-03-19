@@ -1,0 +1,10 @@
+<svg id="Componente_11_2" data-name="Componente 11 – 2" xmlns="http://www.w3.org/2000/svg" width="59" height="59" viewBox="0 0 59 59">
+  <g id="Ellisse_46" data-name="Ellisse 46" fill="none" stroke="#000" stroke-width="1.5">
+    <circle cx="29.5" cy="29.5" r="29.5" stroke="none"/>
+    <circle cx="29.5" cy="29.5" r="28.75" fill="none"/>
+  </g>
+  <g id="Componente_10_2" data-name="Componente 10 – 2" transform="translate(42.5 39.644) rotate(180)">
+    <path id="Tracciato_75" data-name="Tracciato 75" d="M13,0,4.062,13.948,0,20.288" transform="translate(13 0)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2"/>
+    <path id="Tracciato_76" data-name="Tracciato 76" d="M0,0,9.344,14.582,13,20.288" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2"/>
+  </g>
+</svg>

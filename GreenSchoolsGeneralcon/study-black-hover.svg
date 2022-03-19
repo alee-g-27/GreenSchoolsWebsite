@@ -1,0 +1,89 @@
+<svg id="Componente_13_1" data-name="Componente 13 – 1" xmlns="http://www.w3.org/2000/svg" width="59" height="58.424" viewBox="0 0 59 58.424">
+  <g id="Raggruppa_10" data-name="Raggruppa 10" transform="translate(-130.375 -229.475)">
+    <g id="study" transform="translate(130.375 229.475)">
+      <g id="Ellisse_31" data-name="Ellisse 31" transform="translate(18)" stroke="#000" stroke-width="1.5">
+        <circle cx="11.5" cy="11.5" r="11.5" stroke="none"/>
+        <circle cx="11.5" cy="11.5" r="10.75" fill="none"/>
+      </g>
+      <line id="Linea_274" data-name="Linea 274" x2="11" y2="7" transform="translate(34.5 21.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1.5"/>
+      <line id="Linea_275" data-name="Linea 275" y1="6" transform="translate(54.5 44.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1.5"/>
+      <g id="Ellisse_32" data-name="Ellisse 32" transform="translate(50 33)" stroke="#000" stroke-width="1.5">
+        <ellipse cx="4.5" cy="5.5" rx="4.5" ry="5.5" stroke="none"/>
+        <ellipse cx="4.5" cy="5.5" rx="3.75" ry="4.75" fill="none"/>
+      </g>
+      <line id="Linea_276" data-name="Linea 276" y1="6" transform="translate(54.5 26.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1.5"/>
+      <line id="Linea_277" data-name="Linea 277" y1="6" x2="25" transform="translate(29.5 26.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1.5"/>
+      <line id="Linea_278" data-name="Linea 278" x1="25" y1="6" transform="translate(4.5 26.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1.5"/>
+      <line id="Linea_279" data-name="Linea 279" y1="6" transform="translate(4.5 26.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1.5"/>
+      <line id="Linea_280" data-name="Linea 280" y1="6" transform="translate(4.5 44.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1.5"/>
+      <line id="Linea_281" data-name="Linea 281" y1="25" transform="translate(29.5 32.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1.5"/>
+      <line id="Linea_282" data-name="Linea 282" x1="11" y2="7" transform="translate(13.5 21.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1.5"/>
+      <line id="Linea_283" data-name="Linea 283" y1="7" x2="25" transform="translate(29.5 50.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1.5"/>
+      <line id="Linea_284" data-name="Linea 284" x1="25" y1="7" transform="translate(4.5 50.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1.5"/>
+      <g id="Ellisse_33" data-name="Ellisse 33" transform="translate(0 33)" stroke="#000" stroke-width="1.5">
+        <ellipse cx="4.5" cy="5.5" rx="4.5" ry="5.5" stroke="none"/>
+        <ellipse cx="4.5" cy="5.5" rx="3.75" ry="4.75" fill="none"/>
+      </g>
+    </g>
+  </g>
+  <g id="Rettangolo_26" data-name="Rettangolo 26" transform="translate(24 22)" stroke="#000" stroke-width="1">
+    <rect width="11" height="9" stroke="none"/>
+    <rect x="0.5" y="0.5" width="10" height="8" fill="none"/>
+  </g>
+  <g id="Rettangolo_27" data-name="Rettangolo 27" transform="translate(29 22)" stroke="#000" stroke-width="1">
+    <rect width="7" height="5" stroke="none"/>
+    <rect x="0.5" y="0.5" width="6" height="4" fill="none"/>
+  </g>
+  <g id="Rettangolo_28" data-name="Rettangolo 28" transform="translate(26 27)" stroke="#000" stroke-width="1">
+    <rect width="7" height="5" stroke="none"/>
+    <rect x="0.5" y="0.5" width="6" height="4" fill="none"/>
+  </g>
+  <g id="Rettangolo_29" data-name="Rettangolo 29" transform="translate(31 23)" stroke="#000" stroke-width="1">
+    <rect width="7" height="5" stroke="none"/>
+    <rect x="0.5" y="0.5" width="6" height="4" fill="none"/>
+  </g>
+  <g id="Rettangolo_30" data-name="Rettangolo 30" transform="translate(31 26)" stroke="#000" stroke-width="1">
+    <rect width="7" height="5" stroke="none"/>
+    <rect x="0.5" y="0.5" width="6" height="4" fill="none"/>
+  </g>
+  <g id="Rettangolo_31" data-name="Rettangolo 31" transform="translate(32 24)" stroke="#000" stroke-width="1">
+    <rect width="7" height="5" stroke="none"/>
+    <rect x="0.5" y="0.5" width="6" height="4" fill="none"/>
+  </g>
+  <g id="Rettangolo_32" data-name="Rettangolo 32" transform="translate(32 25)" stroke="#000" stroke-width="1">
+    <rect width="7" height="5" stroke="none"/>
+    <rect x="0.5" y="0.5" width="6" height="4" fill="none"/>
+  </g>
+  <g id="Rettangolo_33" data-name="Rettangolo 33" transform="translate(34 25)" stroke="#000" stroke-width="1">
+    <rect width="7" height="5" stroke="none"/>
+    <rect x="0.5" y="0.5" width="6" height="4" fill="none"/>
+  </g>
+  <g id="Rettangolo_34" data-name="Rettangolo 34" transform="translate(37 26)" stroke="#000" stroke-width="1">
+    <rect width="6" height="3" stroke="none"/>
+    <rect x="0.5" y="0.5" width="5" height="2" fill="none"/>
+  </g>
+  <g id="Rettangolo_35" data-name="Rettangolo 35" transform="translate(40 27)" stroke="#000" stroke-width="1">
+    <rect width="4" height="2" stroke="none"/>
+    <rect x="0.5" y="0.5" width="3" height="1" fill="none"/>
+  </g>
+  <g id="Rettangolo_36" data-name="Rettangolo 36" transform="translate(15 27)" stroke="#000" stroke-width="1">
+    <rect width="4" height="2" stroke="none"/>
+    <rect x="0.5" y="0.5" width="3" height="1" fill="none"/>
+  </g>
+  <g id="Tracciato_79" data-name="Tracciato 79" transform="translate(17 26)">
+    <path d="M 3.740247011184692 3.500000476837158 L 0.5000011920928955 3.500000476837158 L 0.5000011920928955 0.4729902148246765 L 6.08530855178833 0.1626515835523605 L 3.740247011184692 3.500000476837158 Z" stroke="none"/>
+    <path d="M 5.083209037780762 0.7191030979156494 L 1.000000953674316 0.9459798336029053 L 1.000000953674316 3.000000476837158 L 3.480485916137695 3.000000476837158 L 5.083209037780762 0.7191030979156494 M 7.087401390075684 -0.3937993049621582 L 4.000000953674316 4.000000476837158 L 9.5367431640625e-07 4.000000476837158 L 9.5367431640625e-07 4.76837158203125e-07 L 7.087401390075684 -0.3937993049621582 Z" stroke="none" fill="#000"/>
+  </g>
+  <g id="Rettangolo_38" data-name="Rettangolo 38" transform="translate(21 23)" stroke="#000" stroke-width="1">
+    <rect width="5" height="8" stroke="none"/>
+    <rect x="0.5" y="0.5" width="4" height="7" fill="none"/>
+  </g>
+  <g id="Tracciato_78" data-name="Tracciato 78" transform="translate(18 25)" fill="#fff">
+    <path d="M 2.743955612182617 0.7656224966049194 L 1.683391690254211 0.7656224966049194 L 2.678611278533936 0.1172235012054443 L 2.743955612182617 0.7656224966049194 Z" stroke="none"/>
+    <path d="M 3.093747615814209 -0.7499974966049194 L 3.296877384185791 1.265622496604919 L -2.384185791015625e-06 1.265622496604919 L 3.093747615814209 -0.7499974966049194 Z" stroke="none" fill="#000"/>
+  </g>
+  <g id="Tracciato_77" data-name="Tracciato 77" transform="translate(20.536 23.768) rotate(-30)" fill="#fff">
+    <path d="M3.677.622,2.911,1.948,1.057.878Z" stroke="none"/>
+    <path d="M 3.676518201828003 0.6223181486129761 L 2.910898208618164 1.948418140411377 L 1.057058095932007 0.8781082630157471 L 3.676518201828003 0.6223181486129761 Z" stroke="none" fill="#000"/>
+  </g>
+</svg>
