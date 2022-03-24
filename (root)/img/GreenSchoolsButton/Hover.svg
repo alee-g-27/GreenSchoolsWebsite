@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="295" height="106" viewBox="0 0 295 106">
+  <defs>
+    <filter id="Rectangle_101" x="0" y="0" width="295" height="106" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Scarica_l_add-on" x="47" y="27" width="202" height="48" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Component_20_1" data-name="Component 20 – 1" transform="translate(15 10)">
+    <g transform="matrix(1, 0, 0, 1, -15, -10)" filter="url(#Rectangle_101)">
+      <rect id="Rectangle_101-2" data-name="Rectangle 101" width="265" height="76" rx="38" transform="translate(15 10)" fill="#fff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -15, -10)" filter="url(#Scarica_l_add-on)">
+      <text id="Scarica_l_add-on-2" data-name="Scarica l&apos;add-on" transform="translate(148 57)" font-size="25" font-family="Raleway-Light, Raleway" font-weight="300"><tspan x="-91.95" y="0">Scarica l&apos;add-on</tspan></text>
+    </g>
+  </g>
+</svg>

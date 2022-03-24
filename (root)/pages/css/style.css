@@ -166,7 +166,7 @@ display: block;
 margin-left: 0;
 margin-right: 0;
 margin-top: 0;
-margin-bottom: 100px;
+margin-bottom: 200%;
 margin-top: 25px;
 transition: transform ease-in-out 0.2s;
 }
@@ -180,7 +180,6 @@ transition: transform ease-in-out 0.2s;
 }
 
 .scroll-page-div >a{
-  cursor: default;
   margin: 0px;
 }
 
@@ -741,8 +740,30 @@ footer ul{
   background-color: #f5f5f5;
 }
 
-.loader > img{
+.loaderGame{
+  top: 0;
+  left: 0; 
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #494649;
+}
+
+.loader> img{
   width: 520px;
+}
+
+.loaderGame.hidden > img{
+  width: 520px;
+}
+
+.loaderGame.hidden{
+  animation: fadeOut 2s;
+  animation-fill-mode: forwards;
 }
 
 .loader.hidden{
@@ -887,7 +908,7 @@ footer ul{
   font-size: 90px;
 }
 
-.game-text h1{
+.game-text h1, .download-section h1{
   text-align: center;
   color: white;
   font-family: Raleway-Bold;
@@ -1043,4 +1064,46 @@ footer ul{
 @keyframes fade {
   from {opacity: .6}
   to {opacity: 1}
+}
+
+.game-background{
+  background-image: url('../../img/GreenSchoolsGeneralImage/Untitled-1.png') !important;
+}
+
+iframe{
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  align-items: center;
+  margin-bottom: 2%;
+}
+
+iframe.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button-link .center{
+  display: block;
+
+}
+
+.download-link >a{
+  margin: 0px;
+  padding: 0px;
+}
+
+.download-button {
+  width: 12%;
+  transition: ease-in-out 0.3s;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+
+}
+.download-button:hover {
+  width: 12%;
+  transform: scale(1.05);
+  background-image: url('../../img/GreenSchoolsButton/Hover.svg') repeat;
 }
