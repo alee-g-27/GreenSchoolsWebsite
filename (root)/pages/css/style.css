@@ -243,89 +243,30 @@ ul li:hover a {
   color: #3676CB;
 }*/
 
-body.changeColor-home{
-  background-color: #00BF59;
-
-}
-
-.displayNone {
-  display: none;
-}
-/*
-a.go-top-image{
-  float: right;
+.go-top-image{
+  left: 90%;
+  top: 80%;
   margin-right: 2%;
-
-
-  
   position: fixed;
-
-}
-
-a.go-top-image.show {
-  opacity: 1;
-  visibility: visible;
-  transition: background-color 0.3s ease 0s, color 0.3s ease 0s, opacity 0.5s ease 0s;
-}
-
-
-a.to-top.show {
-  opacity: 1;
-  visibility: visible;
-  transition: background-color 0.3s ease 0s, color 0.3s ease 0s, opacity 0.5s ease 0s;
-}
-
-a.to-top {
-  background-color: rgba(0, 0, 0, 0.1);
-  color: rgb(255, 255, 255);
-  font-size: 22px;
-}
-
-a.to-top {
-  position: fixed;
-
-  z-index: 1000;
-  outline: none !important;
-}
-/*
-.go-top-image {
-  position: fixed;
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
   display: none;
-}
-*/
-/*
-.go-top-image:active img {
+  animation: 1s ease-in-out;
 
 }
 
-.go-top-image:hover img {
-  filter: invert(0.5);
-  transform: scale(1.1);
-  transition: 0.3s ease-in-out;
-
-}
-*/
-
-.go-to-top {
-  display: none; /* Hidden by default */
-  position: fixed; /* Fixed/sticky position */
-  bottom: 20px; /* Place the button at the bottom of the page */
-  right: 30px; /* Place the button 30px from the right */
-  z-index: 99; /* Make sure it does not overlap */
-  border: none; /* Remove borders */
-  outline: none; /* Remove outline */
-  background-color: red; /* Set a background color */
-  color: white; /* Text color */
-  cursor: pointer; /* Add a mouse pointer on hover */
-  padding: 15px; /* Some padding */
-  border-radius: 10px; /* Rounded corners */
-  font-size: 18px; /* Increase font size */
+.go-top-image img{
+  transition: 0.2s ease-in-out;
+  width: 50%;
 }
 
-.go-to-top:hover {
-  background-color: #555; /* Add a dark-grey background on hover */
+.go-top-image img:hover{
+transform: scale(1.1);
 }
 
+.go-top-image img:active{
+  transform: scale(1.0);
+  }
 
 .home-text{
   background-color: #00BF59;
@@ -859,7 +800,8 @@ footer ul{
 }
 
 .team{
-  background-color: #FF6D4B;  
+  background-color: #FF6D4B;
+
 }
 
 .teamTitle{
@@ -883,7 +825,7 @@ footer ul{
 }
 
 .teamPeople {
-  align-items: center;
+  align-items: flex-start;
   display: flex;
   /*justify-content: space-between;*/
   margin-left: 17%;
@@ -892,6 +834,7 @@ footer ul{
 
 .personImage{
   width: 215px;
+  align-items: flex-start;
 }
 
 .prj-text h1{
@@ -924,7 +867,7 @@ footer ul{
   line-height: 150%;
 }
 
-.goodPract-text p{
+.goodPract-text p, .concrete-acions p{
   padding-bottom: 3%;
   text-align: center;
   color: white;
@@ -946,10 +889,6 @@ footer ul{
   padding-top: 3%;
 }
 
-.goodPract-text{
-  background-color: #A444F8;
-}
-
 .presentation-title{
   color: #00B1FF;
   cursor: default;
@@ -966,7 +905,6 @@ footer ul{
   font-family: Raleway-Bold;
   font-size: 35px;
   text-align: center;
-  padding: 3%;
 }
 
 * {box-sizing:border-box}
@@ -1078,12 +1016,12 @@ iframe{
   margin-bottom: 2%;
 }
 
-iframe.center {
+iframe.center, button.center {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-
+/*
 .button-link .center{
   display: block;
 
@@ -1106,4 +1044,159 @@ iframe.center {
   width: 12%;
   transform: scale(1.05);
   background-image: url('../../img/GreenSchoolsButton/Hover.svg') repeat;
+}*/
+.button-download p{
+  font-family: Raleway-Light;
+  font-size: 23px;
+  padding: 25px 25px;
 }
+
+.button-link{
+  border-radius: 100px;
+  transition: ease-in-out 0.3s;
+  border: none;
+  color: black;
+  margin-left: auto;
+  margin-right: auto;
+}
+.button-link > a{
+  margin: 0px;
+  color: black;
+}
+
+.button-link:hover {
+  transform: scale(1.05);
+}
+
+.background-navbar{
+  background-image: url('../../img/GreenSchoolsGeneralImage/grass.png') !important;
+}
+
+/* START LIMIT CSS */
+ 
+.limit-section h1{
+  text-align: center;
+  color: #ff6d4b;
+  font-family: Raleway-Bold;
+  font-size: 75px;
+}
+ 
+.limit-content h3{
+  font-family: Raleway-SemiBold;
+  font-size: 18px;
+  margin: 2px;
+  color: white;
+}
+ 
+.limit-content p{
+  font-family: Raleway-Regular;
+  font-size: 17px;
+  margin: 2px;
+  color: white;
+}
+ 
+.limit-section{
+
+  background-color: #f5f5f5;
+  min-height: 10vh;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 100px;
+  padding-top: 5px;
+ 
+}
+ 
+ 
+.limit-items{
+ 
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+ 
+ 
+ 
+.limit-item{
+  margin-bottom: 40px;
+  width: 100%;
+
+}
+ 
+ 
+.limit-item:nth-child(odd){
+ 
+  padding-right: calc(50% + 30px);
+ 
+}
+ 
+.limit-item:nth-child(even){
+ 
+  padding-Left: calc(50% + 30px);
+ 
+}
+ 
+ 
+.limit-content{
+ 
+  background-color: #ff6d4b ;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+
+}
+
+.limit-image{
+
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.limit-text{
+  text-align: left;
+  width: 120%;
+  line-height: 70%;
+  padding-left: 5%;
+}
+
+.future-download h3{
+  text-align: center;
+  color: white;
+  font-family: Raleway-Bold;
+  font-size: 40px;
+}
+
+.limit-section-title{
+  padding-top: 5%;
+  color: #ff6d4b;
+  font-size: 70px;
+}
+
+.concrete-acions p{
+  color: #a444f8 !important;
+}
+ 
+.sign-goodPract{
+  width: 30%;
+  border-radius: 10px;
+}
+
+ 
+/* FINISH LIMIT CSS */
+
+/*===========RESPONSIVE===========*/
+
+/*==========FOR SMALL DEVICES=====*/
+
+/*=========FOR MEDIUM DEVICES=====*/
+/*
+@media screen and (min-width: 568px){
+  .home-svg{
+    width: 70%;
+  }
+}*/
+
+/*=========FOR LARGE DEVICES=====*/

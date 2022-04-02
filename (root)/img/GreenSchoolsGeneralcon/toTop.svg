@@ -1,0 +1,10 @@
+<svg id="Componente_22_1" data-name="Componente 22 – 1" xmlns="http://www.w3.org/2000/svg" width="139" height="144" viewBox="0 0 139 144">
+  <g id="Ellisse_99" data-name="Ellisse 99" fill="rgba(216,216,216,0.45)" stroke="#4e4e4e" stroke-width="7">
+    <ellipse cx="69.5" cy="72" rx="69.5" ry="72" stroke="none"/>
+    <ellipse cx="69.5" cy="72" rx="66" ry="68.5" fill="none"/>
+  </g>
+  <g id="Raggruppa_18" data-name="Raggruppa 18" transform="translate(93.444 85.967) rotate(180)">
+    <line id="Linea_6" data-name="Linea 6" x2="23.944" y2="27.934" transform="translate(0)" fill="none" stroke="#4e4e4e" stroke-linecap="round" stroke-width="7"/>
+    <line id="Linea_7" data-name="Linea 7" x1="23.944" y2="27.934" transform="translate(23.944)" fill="none" stroke="#4e4e4e" stroke-linecap="round" stroke-width="7"/>
+  </g>
+</svg>
