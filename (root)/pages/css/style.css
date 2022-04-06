@@ -139,12 +139,6 @@ src: url(../../font/Raleway/Raleway-SemiBold.ttf);
   position: relative;
 }
 
-@media screen and (max-width: 1200px){
-  .home-svg{
-      width: 70%;
-  }
-}
-
 .home-svg{
   display: block;
   margin-left: auto;
@@ -252,6 +246,8 @@ ul li:hover a {
   background-color: rgba(255, 255, 255, 0);
   display: none;
   animation: 1s ease-in-out;
+  overflow-x: hidden;
+  overflow-y: hidden;
 
 }
 
@@ -268,6 +264,10 @@ transform: scale(1.1);
   transform: scale(1.0);
   }
 
+  .go-top-image img::after{
+    display: none;
+  }
+
 .home-text{
   background-color: #00BF59;
 }
@@ -281,6 +281,7 @@ transform: scale(1.1);
   color: white;
   font-family: Raleway-Bold;
   font-size: 90px;
+  padding-top: 1%;
 }
 
 .home-text p{
@@ -656,6 +657,7 @@ footer ul{
   color: white;
   font-family: Raleway-Bold;
   font-size: 90px;
+  padding-top: 1%;
 }
 
 .study-text p{
@@ -842,6 +844,7 @@ footer ul{
   color: white;
   font-family: Raleway-Bold;
   font-size: 90px;
+  padding-top: 1%;
 }
 
 .goodPract-text h1{
@@ -849,6 +852,7 @@ footer ul{
   color: white;
   font-family: Raleway-Bold;
   font-size: 90px;
+  padding-top: 1%;
 }
 
 .game-text h1, .download-section h1{
@@ -856,6 +860,7 @@ footer ul{
   color: white;
   font-family: Raleway-Bold;
   font-size: 90px;
+  padding-top: 1%;
 }
 
 .prj-text p{
@@ -928,24 +933,24 @@ footer ul{
   top: 50%;
   width: auto;
   margin-top: -22px;
-  padding: 16px;
+  padding: 20px;
   color: white;
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
-  border-radius: 0 7px 7px 0;
+  border-radius: 0 50px 50px 0;
   user-select: none;
 }
 
 /* Position the "next button" to the right */
 .next {
   right: 0;
-  border-radius: 7px 0 0 7px;
+  border-radius: 50px 0 0 50px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 /* Caption text */
@@ -1136,6 +1141,10 @@ iframe.center, button.center {
   padding-Left: calc(50% + 30px);
  
 }
+
+.dxLimit, .sxLimit{
+  left: auto;
+}
  
  
 .limit-content{
@@ -1184,19 +1193,24 @@ iframe.center, button.center {
   border-radius: 10px;
 }
 
- 
+.minecraft-trailer{
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+
 /* FINISH LIMIT CSS */
 
 /*===========RESPONSIVE===========*/
 
 /*==========FOR SMALL DEVICES=====*/
 
-/*=========FOR MEDIUM DEVICES=====*/
-/*
-@media screen and (min-width: 568px){
-  .home-svg{
-    width: 70%;
-  }
-}*/
+/*=========FOR MEDIUM DEVICES=====
 
+@media screen and (min-width: 568px){
+
+
+}
+*/
 /*=========FOR LARGE DEVICES=====*/

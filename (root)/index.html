@@ -6,6 +6,7 @@
     <meta charset="utf-8" lang="it">
     <link rel="stylesheet" href="./pages/css/style.css" type="text/css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="shortcut icon" type="image/png" href="./img/GreenSchoolsFavIcon/GS-PROFILE-IMAGE.jpg">
 
 </head>
@@ -30,10 +31,12 @@
         </nav>
     </div>
     <!--SISTEMARE LEGGERO SPOSTAMENTO TESTO DELLA FOGLIA-->
-    
+    <!--
     <div class="go-top-image">
     <a href="#top-page"><img src="./img/GreenSchoolsGeneralcon/toTop.svg" alt="button-toTop"></a>
     </div>
+    -->
+
 
     <div>
         <p class="header-title-top" style="margin-bottom: 10px; margin-top: 50px;">GREEN</p>
@@ -49,15 +52,15 @@
         </div>
     </div>
     
-    <div class = "home-text">
-        <h1  id="home-text">Di cosa si tratta?</h1>
-        <p style="padding-bottom: 1%;"> Si tratta di una competizione della provincia di Treviso, <br> dove le scuole iscritte 
+    <div class = "home-text" style="padding-bottom: 3%;">
+        <h1  id="home-text" data-aos="zoom-in">Di cosa si tratta?</h1>
+        <p style="padding-bottom: 1%;" data-aos="fade-left"> Si tratta di una competizione della provincia di Treviso, <br> dove le scuole iscritte 
             si sfidano per sensibilizzare <br>le persone sull’importanza di un mondo eco-sostenibile.
         </p>
 
-        <div class="slideshow-container">
+        <div class="slideshow-container" data-aos="fade-in">
 
-            <div class="mySlides fade">
+            <div class="mySlides fade" data-aos="slide-right">
                 <img class="slideshow-image" src="./img/GreenSchoolsTeam/general/1st.png" style="width:100%">
             </div>
             
@@ -74,27 +77,26 @@
             </div>
                         
             <!-- The dots/circles-->
-            <div style="text-align:center">
+            <div style="text-align:center; padding-bottom: 1%;">
                 <span class="dot"></span>
                 <span class="dot"></span>
                 <span class="dot"></span>
     
             </div>
-            <!-- VIDEO DA INSERIRE
-            <iframe width="960" height="540"
-            src="pexels-tom-fisk-5488780.mp4">
-            </iframe>
-            -->
-
 
         <!--<img src="./img/GreenSchoolsTeam/PROVA.png" alt="DA-FARE">-->
         <!--<div class="separate-line"></div>-->
-        <p> Attraverso degli incontri rivolti soprattutto agli studenti,<br> 
+        <p data-aos="fade-right"> Attraverso degli incontri rivolti soprattutto agli studenti,<br> 
             ma che possono raggiungere il mondo attraverso <br>
             presentazioni, siti Web, social media e volantini. 
         </p>
     </div>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
 
+    AOS.init();
+
+</script>
 </body>
 
 <footer>

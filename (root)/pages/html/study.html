@@ -6,6 +6,7 @@
     <meta charset="utf-8" lang="it">
     <link rel="stylesheet" href="../css/style.css" type="text/css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="shortcut icon" type="image/png" href="../../img/GreenSchoolsFavIcon/GS-PROFILE-IMAGE.jpg">
 
 </head>
@@ -26,10 +27,12 @@
             </ul>
         </nav>
     </div>
-
+    <!--
     <div class="go-top-image">
         <a href="#top-page"><img src="../../img/GreenSchoolsGeneralcon/toTop.svg" alt="button-toTop"></a>
     </div>
+    -->
+
 
     <div>
         <img src="../../img/GreenSchoolsGeneralcon/study-blue-hover.svg" alt="study-page-image" class="study-svg">
@@ -42,11 +45,11 @@
 
     </div>
     <div class = "study-text">
-        <h1 id="study-text">Cosa abbiamo capito?</h1>
-        <p style="padding-bottom: 2%;"> Alla luce del nostro progetto è stato necessario effettuare <br> delle ricerche per verificare 
+        <h1 id="study-text" data-aos="zoom-in">Cosa abbiamo capito?</h1>
+        <p data-aos="fade-left" style="padding-bottom: 1%;"> Alla luce del nostro progetto è stato necessario effettuare <br> delle ricerche per verificare 
              anche la fattibilità o meno <br>della nostra idea.</p>
 
-            <div class="slideshow-container">
+            <div class="slideshow-container" data-aos="fade-in">
 
                 <div class="mySlides fade">
                     <img class="slideshow-image" src="../../img/GreenSchoolsGeneralImage/study-slideshow/1st.png" style="width:100%">
@@ -74,21 +77,21 @@
     
             </div>
 
-             <p style="padding-bottom: 3%;"> Successivamente si possono esplorare le diverse <br> 
+             <p style="padding-bottom: 3%;" data-aos="fade-right"> Successivamente si possono esplorare le diverse <br> 
                 presentazioni utili per la condivisione e la <br>
                 sensibilizzazione riguardo numerosi argomenti.</p>
 
     </div>
 
     <div style="background-color: #f5f5f5">
-        <h1 class="presentation-title">
+        <h1 class="presentation-title" data-aos="fade-down">
             Esplora le presentazioni <br>dell'Energy Team!
         </h1>
         <div class="body-post">
 
             <div class="blog-posts">
     
-                <div class="post">
+                <div class="post" data-aos="fade-right">
                     <a href="https://prezi.com/view/dmaMhZndTncjdPEdYDyk/" target="_blank" title="Clicca"> <img src="../../img/GreenSchoolsGeneralImage/audi-presentation.jpg" alt="foto" class="post-img"></a>
                      <div class="post-content">
                          <h3>Potenze a Confronto</h3>
@@ -97,7 +100,7 @@
                      </div>
                  </div>
          
-                 <div class="post">
+                 <div class="post" data-aos="fade-down">
                      <a href="https://prezi.com/view/cyWchgRnXBy68FCpkX94/" target="_blank" title="Clicca"> <img src="../../img/GreenSchoolsGeneralImage/auto ricaricabile come cellulare.png" alt="foto" class="post-img"></a>
                       <div class="post-content">
                           <h3>Auto Ricaricabile come Cellulare</h3>
@@ -106,7 +109,7 @@
                       </div>
                   </div>
          
-                  <div class="post">
+                  <div class="post" data-aos="fade-left">
                      <a href="https://prezi.com/view/oGhgupK12n44hWte3kc6/" target="_blank" title="Clicca"> <img src="../../img/GreenSchoolsGeneralImage/fire-orange-emergency-burning-1-2220x800.png" alt="foto" class="post-img"></a>
                       <div class="post-content">
                           <h3>La Combustione</h3>
@@ -115,7 +118,7 @@
                       </div>
                   </div>
     
-                <div class="post">
+                <div class="post"data-aos="fade-right">
                    <a href="https://prezi.com/view/XBDXhcGFop6c1OEkiyQU/" target="_blank" title="Clicca"> <img src="../../img/GreenSchoolsGeneralImage/02_150-anni-auto-elettrica.png" alt="foto" class="post-img"></a>
                     <div class="post-content">
                         <h3>Auto Elettrica</h3>
@@ -124,7 +127,7 @@
                     </div>
                 </div>
         
-                <div class="post">
+                <div class="post" data-aos="zoom-in">
                     <a href="https://prezi.com/view/jrdgFdooYDso1F91dSKh/" target="_blank" title="Clicca"> <img src="../../img/GreenSchoolsGeneralImage/green-software[854].png" alt="foto" class="post-img"></a>
                      <div class="post-content">
                          <h3>Efficienza Energetica</h3>
@@ -133,7 +136,7 @@
                      </div>
                  </div>
         
-                 <div class="post">
+                 <div class="post" data-aos="fade-left">
                     <a href="https://prezi.com/view/XjhfYZ58EKM7zDSN4Yd4/" target="_blank" title="Clicca"> <img src="../../img/GreenSchoolsGeneralImage/ii-produttore-pannelli-solari-mondo-raddoppia-capacita-produttiva-v4-450086-1280x720.png" alt="foto" class="post-img"></a>
                         <div class="post-content">
                          <h3>Pannelli Solari</h3>
@@ -142,7 +145,7 @@
                         </div>
                  </div>
     
-                 <div class="post toCenter">
+                 <div class="post toCenter" data-aos="fade-up">
                     <a href="https://prezi.com/view/oVcLFiM3hVJ3vghxujcq/" target="_blank" title="Clicca"> <img src="../../img/GreenSchoolsGeneralImage/inumerinoncontano.png" alt="foto" class="post-img"></a>
                         <div class="post-content">
                          <h3>I numeri non mentono</h3>
@@ -204,6 +207,11 @@
         </div>
     </div>
 </footer>  
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 
 </body>
 

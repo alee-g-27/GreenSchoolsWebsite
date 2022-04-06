@@ -5,6 +5,7 @@
     <title>Game</title>
     <meta charset="utf-8" lang="it">
     <link rel="stylesheet" href="../css/style.css" type="text/css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="shortcut icon" type="image/png" href="../../img/GreenSchoolsFavIcon/GS-PROFILE-IMAGE.jpg">
 
 </head>
@@ -25,10 +26,12 @@
                 </ul>
             </nav>
         </div>
-
+        <!--
         <div class="go-top-image">
             <a href="#top-page"><img src="../../img/GreenSchoolsGeneralcon/toTop.svg" alt="button-toTop"></a>
         </div>
+        -->
+
 
         <div>
             <img src="../../img/GreenSchoolsSiteIcon/game-test.svg" alt="study-page-image" class="study-svg">
@@ -40,11 +43,11 @@
         </div>
 
         <div class = "game-text">
-            <h1 id="game-text">Imparare divertendosi?</h1>
-            <p style="padding-bottom: 2%;"> Il Team Energy ha ideato ad un add-on per <br> Minecraft Windows 10, 
+            <h1 id="game-text"  data-aos="zoom-in">Imparare divertendosi?</h1>
+            <p style="padding-bottom: 2%;" data-aos="fade-left"> Il Team Energy ha ideato ad una mod per <br> Minecraft Java Edition, 
               educando gli utilizzatori <br>tramite un apprendimento interattivo.</p>
 
-                <div class="slideshow-container">
+                <!--<div class="slideshow-container">
 
                 <div class="mySlides fade">
                     <img class="slideshow-image" src="../../img/GreenSchoolsGeneralImage/game-slideshow/1st.png" style="width:100%">
@@ -64,26 +67,35 @@
                 </div>
                 <br>
                 
-                <!-- The dots/circles -->
+                <!-- The dots/circles 
                 <div style="text-align:center">
                 <span class="dot"></span>
                 <span class="dot"></span>
                 <span class="dot"></span>
     
     
-            </div>
+            </div>-->
+            <iframe data-aos="zoom-in" width="810" height="456" src="https://www.youtube.com/embed/f2z1eYN2_ds" title="YouTube video player" 
+                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen class="minecraft-trailer">
+            </iframe>
 
-             <p style="padding-bottom: 10%;"> Nelle parti successive di questa pagina,<br> 
+             <p style="padding-bottom: 10%;" data-aos="fade-right"> Nelle parti successive di questa pagina,<br> 
                 potrete scaricare ed installare l'add-on tramite <br>
                 procedimento video-guidato.</p>
-
         </div>
     
         <div class="future-download">
-            <h3>Il download sarà presto disponibile!</h3>
+            <h3 data-aos="zoom-in">Il download sarà presto disponibile!</h3>
         </div>
 
 </div>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
 </body>
 <footer>
     <div class="container">
