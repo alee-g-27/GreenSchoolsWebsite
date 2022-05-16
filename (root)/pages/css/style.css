@@ -1,14 +1,12 @@
 body{
   background-color: rgb(245, 245, 245);
   margin: 0px;
-  overflow-x: hidden;
   transition: ease-in-out 1s background-color;
 
 }
 
 html{
   scroll-behavior: smooth;
-  
 }
 
 @font-face {
@@ -36,58 +34,6 @@ src: url(../../font/Raleway/Raleway-SemiBold.ttf);
   src: url(../../font/Raleway/Raleway-Medium.ttf);
 }
 
-.nav-bar{
-  /*background-color: rgba(88, 88, 88, 0.041); /*88*/
-  /*background-color: rgb(245, 245, 245);*/
-  /*background-color: #262626;*/
-  /*background-color: hsl(148, 100%, 30%);*/
-  /*background-image: url(../../img/GreenSchoolsGeneralImage/182e1f28e2c723ede713d4dee929b368.png);
-  background-repeat:no-repeat;
-  background-size: cover;*/
-  font-family: Raleway-Regular;
-  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.096);
-  /*border-bottom: 2px solid rgba(128, 128, 128, 0.061);*/
-  /*position: fixed;
-  overflow: hidden;
-  top: 0; /* At the top 
-  z-index: 99;
-  width: 100%;*/
-}
-
-.nav-bar ul {
-  margin: 0px;
-  padding: 0px;
-}
-
-.nav-bar li {
-  display: inline-block;
-  margin-left: 30px;
-  margin-top: 15px;
-  margin: 1px 10px; /* DA SISTEMARE*/ 
-  padding: 20px;
-}
-
-.nav-bar a p {
-  /*color: rgb(49, 49, 49);*/
-  color: rgb(255, 255, 255);
-  font-size: 18px;
-  text-decoration: none;
-  list-style: none;
-}
-
-.nav-bar a{
-  text-decoration: none;
-}
-
-.nav-bar p{
-  margin-top: 5px;
-  /*color: white;*/
-}
-
-.nav-bar img{
-  filter: invert(1);
-}
-
 /*
 .hover-underline-animation {
   position: relative;
@@ -113,91 +59,13 @@ src: url(../../font/Raleway/Raleway-SemiBold.ttf);
 
 */
 
-
-
-.header-title-top{
-  text-align: center;
-  font-weight: bolder;
-  font-family: Raleway-Bold; 
-  font-size: 100px;
-  margin: 10px;
-  color: #00BF59;
-  white-space: nowrap;
-  position: relative;
-  z-index: 1;
-}
-
-.header-title-bottom{
-  text-align: center;
-  font-weight: bolder;
-  font-family: Raleway-Bold;
-  font-size: 100px;
-  margin: 10px;
-  color: #00BF59;
-  left: 0px;
-  white-space: nowrap;
-  position: relative;
-}
-
-.home-svg{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  /*width:50%;*/
-}
-
 .slider-info{
-text-align: center;
-/*font-family: Raleway-Regular;*/
-font-family: Raleway-SemiBold;
-font-size: 25px;
-margin-top: 70px;
-
-}
-
-.arrow-svg{
-display: block;
-margin-left: 0;
-margin-right: 0;
-margin-top: 0;
-margin-bottom: 200%;
-margin-top: 25px;
-transition: transform ease-in-out 0.2s;
-}
-
-.arrow-svg:hover{
-  transform: scale(1.2);
-}
-
-.scroll-home-page::after{
-  transition: transform ease-in-out 0.2s;
-}
-
-.scroll-page-div >a{
-  margin: 0px;
-}
-
-.scroll-page-div{
-  margin-right: auto;
-  margin-left: auto;
-  display: flex;
-  justify-content: center;
-  padding-bottom: 1%;
-}
-
-.zoom{
-  place-items:center;  
-  margin-left: auto;
-  margin-right: auto;  
-}
-
-.project-title{
   text-align: center;
-  font-weight: bolder;
-  font-family: Raleway-Bold;
-  font-size: 100px;
-  margin: 10px;
-  color: #FF6D4B;
+  /*font-family: Raleway-Regular;*/
+  font-family: Raleway-SemiBold;
+  font-size: 25px;
+  margin-top: 70px;
+  
 }
 
 .slider-info-project{
@@ -214,28 +82,6 @@ transition: transform ease-in-out 0.2s;
   margin-right: auto;
   margin-top: -10px;
 }
-
-.nav-bar li{
-  transition: transform ease-in-out 0.2s;
-  
-}
-
-.nav-bar li:hover {
-  transform: scale(1.1);
-  /*box-shadow: 10px 10px 10px 10px;
-  border-radius: 10px 10px ;*/
-}
-/*
-ul li:hover,
-ul li:hover a {
-  color: #3676CB;
- 
-}*/
-
-/*.nav-bar li:hover p 
-{
-  color: #3676CB;
-}*/
 
 .go-top-image{
   left: 90%;
@@ -257,50 +103,15 @@ ul li:hover a {
 }
 
 .go-top-image img:hover{
-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .go-top-image img:active{
   transform: scale(1.0);
-  }
-
-  .go-top-image img::after{
-    display: none;
-  }
-
-.home-text{
-  background-color: #00BF59;
 }
 
-.study-text{
-  background-color: #00B1FF;
-}
-
-.home-text h1{
-  text-align: center;
-  color: white;
-  font-family: Raleway-Bold;
-  font-size: 90px;
-  padding-top: 1%;
-}
-
-.home-text p{
-  padding-bottom: 3%;
-  text-align: center;
-  color: white;
-  font-family: Raleway-Light;
-  font-size: 25px;
-  line-height: 150%;
-}
-
-.home-text img{
-  width: 35%;
-  height: 35%;
-  padding-bottom: 3%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  transition: ease-in-out 0.3s border-radius;
+.go-top-image img::after{
+  display: none;
 }
 
 .separate-line{
@@ -332,120 +143,6 @@ transform: scale(1.1);
   zoom: 1.0;
 }
 
-
-footer{
-  background-color: rgba(88, 88, 88, 0.041); /*88*/
-  margin:10;
-  padding:10;
-}
-
-footer ul{
-  list-style: none;
-}
-
-.container{
-  max-width: 1170px;
-  margin-left: auto;
-  margin-right: auto;
-
-  padding-bottom: 2%;
-}
-
-.footer-col ul{
-  margin-bottom: 0;
-  padding: 0;
-  
-}
-
-.footer-col h4{
-  font-size: 18px;
-  color: black;
-  text-transform: capitalize;
-  margin-bottom: 30px;
-  font-weight: 500;
-  position: relative;
-}
-
-.footer-col h4::before{
-  content: '';
-  position: absolute;
-  left: 0;
-  bottom: -10px;
-  background-color: rgb(0, 0, 0);
-  height: 2px;
-  box-sizing: border-box;
-  width: 50px;
-}
-
-.footer-col ul li:not(:last-child){
-  margin-bottom: 10px;
-}
-
-.footer-col ul li a{
-  font-size: 16px;
-  text-transform: capitalize;
-  text-decoration: none;
-  font-weight: 300;
-  color: #a3a3a3;
-  display: block;
-}
-
-.footer-col a{
-  list-style: none;
-  display: inline !important; 
-}
-
-.row{
-  display: flex;
-  flex-wrap: wrap;
-  font-family: Raleway-Regular;
-}
-
-.footer-col{
-  width: 30%;
-  padding: 0 1%;
-}
-
-.footer-link {
-  width: fit-content;
-}
-
-.footer-link a:hover{
-  color: rgb(43, 43, 43);
-  text-decoration: underline;
-  
-}
-
-.social-icon{
-  width: 23%;
-  padding-left: 5%;
-  padding-right: 5%;
-  transition: ease-in-out 0.2s;
-
-}
-
-.social-icon:hover{
-  transform: scale(1.1);
-}
-
-.flag{
-  width: 50%;
-  margin: 0px;
-  transition: ease-in-out 0.2s;
-}
-
-.lang-section p{
-  padding-right: 28%;
-}
-
-.lang-section a{
-  width: 10%;
-}
-
-.flag:hover{
-  transform: scale(1.1);
-}
-
 /*
 .study-svg{
   transition: ease-in-out 0.2s;
@@ -456,18 +153,6 @@ footer ul{
   background-image: url(../../img/GreenSchoolsGeneralcon/study-blue-hover.svg);
 }*/
 
-.study-title{  
-  text-align: center;
-  font-weight: bolder;
-  font-family: Raleway-Bold;
-  font-size: 100px;
-  margin: 10px;
-  color: #00B1FF;
-}
-.home-leaf-img{
-  margin-left: 5%;
-}
-
 .study-svg, .proj-svg{
   display: block;
   margin-left: auto;
@@ -475,80 +160,13 @@ footer ul{
   margin-top: 2%;
 }
 
-
-.blog-posts{
-    font-family: Raleway-Light;
-    width: min(1200px, 100%);
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    cursor: pointer;
-}
-
-.post{
-    width: calc(33% - 10px);
-    overflow: hidden;
-
-}
-
-.post-img{
-    width: 100%;
-    border-radius: 6px;
-    transition: .3s linear;
-}
-
-.post-content{
-    background-color: white;
-    margin: 0 20px;
-    padding: 30px;
-    border-radius: 6px;
-    transform: translateY(-60);
-    transition: .3s linear;
-}
-
-.post-content h3{
-    font-size: 16px;
-    margin-bottom: 10px;
-}
-
-.descrizione{
-    font-size: 15px;
-    color: #00B1FF;
-}
-
-.post .post-img{
-  transform: translateY(20px);
-}
-
-.post .post-content{
-  transform: translateY(-80px);
-}
-
-.post:hover .post-content{
-    transform: translateY(-10px);
-    
-}
-
-@media screen and (max-width: 1200px){
-    .blog-posts{
-        justify-content: center;
-    }
-    .post{
-        width: min(600px, 100%)
-    }
-}
-.body-post{
-    min-height: 80vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.study-svg{
+  padding-top: 9%;
 }
 
 .toCenter{
   margin-left: auto;
   margin-right: auto;
-
 }
 /*
 * {box-sizing:border-box}
@@ -652,23 +270,6 @@ footer ul{
     center top/cover;
 } */
 
-.study-text h1{
-  text-align: center;
-  color: white;
-  font-family: Raleway-Bold;
-  font-size: 90px;
-  padding-top: 1%;
-}
-
-.study-text p{
-  padding-bottom: 3%;
-  text-align: center;
-  color: white;
-  font-family: Raleway-Light;
-  font-size: 25px;
-  line-height: 150%;
-}
-
 /*LOADING ANIMATION*/
 .loader{
   top: 0;
@@ -681,32 +282,12 @@ footer ul{
   justify-content: center;
   align-items: center;
   background-color: #f5f5f5;
-}
+  max-width: 100vw !important;
 
-.loaderGame{
-  top: 0;
-  left: 0; 
-  position: fixed;
-  z-index: 100;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #494649;
 }
 
 .loader> img{
   width: 520px;
-}
-
-.loaderGame.hidden > img{
-  width: 520px;
-}
-
-.loaderGame.hidden{
-  animation: fadeOut 2s;
-  animation-fill-mode: forwards;
 }
 
 .loader.hidden{
@@ -763,147 +344,8 @@ footer ul{
   
 }
 
-.goodPract-title{
-  color: #a444f8;
-  text-align: center;
-  font-weight: bolder;
-  font-family: Raleway-Bold;
-  font-size: 100px;
-  margin: 10px;
-}
-
-.game-title{
-  color: #ffffff;
-  text-align: center;
-  font-weight: bolder;
-  font-family: Raleway-Bold;
-  font-size: 100px;
-  margin: 10px;
-}
-
-.personTeamName{
-  font-family: Raleway-SemiBold;
-  font-size: 18px;
-  margin: 2px;
-  color: white;
-}
-
-.personTeamText{
-  font-family: Raleway-Regular;
-  font-size: 17px;
-  margin: 2px;
-  color: white;
-}
-
-.personTeam {
-  text-align: center;
-  margin: auto;
-  margin-bottom: 50px;
-}
-
-.team{
-  background-color: #FF6D4B;
-
-}
-
-.teamTitle{
-  color: white;
-  font-family: Raleway-Bold;
-  font-size: 100px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  margin-top: 0;
-}
-
-.teamParag{
-  color: white;
-  font-family: Raleway-Light;
-  font-size: 25px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  padding-top: 50px;
-}
-
-.teamPeople {
-  align-items: flex-start;
-  display: flex;
-  /*justify-content: space-between;*/
-  margin-left: 17%;
-  margin-right: 17%;
-}
-
-.personImage{
-  width: 215px;
-  align-items: flex-start;
-}
-
-.prj-text h1{
-  text-align: center;
-  color: white;
-  font-family: Raleway-Bold;
-  font-size: 90px;
-  padding-top: 1%;
-}
-
-.goodPract-text h1{
-  text-align: center;
-  color: white;
-  font-family: Raleway-Bold;
-  font-size: 90px;
-  padding-top: 1%;
-}
-
-.game-text h1, .download-section h1{
-  text-align: center;
-  color: white;
-  font-family: Raleway-Bold;
-  font-size: 90px;
-  padding-top: 1%;
-}
-
-.prj-text p{
-  padding-bottom: 1%;
-  text-align: center;
-  color: white;
-  font-family: Raleway-Light;
-  font-size: 25px;
-  line-height: 150%;
-}
-
-.goodPract-text p, .concrete-acions p{
-  padding-bottom: 3%;
-  text-align: center;
-  color: white;
-  font-family: Raleway-Light;
-  font-size: 25px;
-  line-height: 150%;
-}
-
-.game-text p{
-  padding-bottom: 3%;
-  text-align: center;
-  color: white;
-  font-family: Raleway-Light;
-  font-size: 25px;
-  line-height: 150%;
-}
-
 .prj-text, .study-text, .goodPract-text, .game-text, .home-text{
   padding-top: 3%;
-}
-
-.presentation-title{
-  color: #00B1FF;
-  cursor: default;
-  text-align: center;
-  font-weight: bolder;
-  font-family: Raleway-Bold;
-  font-size: 50px;
-  margin: 10px;
-  padding-bottom: 2%;
-  padding-top: 2%;
 }
 
 .prj-text-white{
@@ -915,19 +357,19 @@ footer ul{
 * {box-sizing:border-box}
 
 /* Slideshow container */
-.slideshow-container {
+.slideshow-container, .slideshow-container-chisiamo {
   max-width: 1000px;
   position: relative;
   margin: auto;
 }
 
 /* Hide the images by default */
-.mySlides {
+.mySlides, .mySlides-chisiamo {
   display: none;
 }
 
 /* Next & previous buttons */
-.prev, .next {
+.prev, .next, .prev-chisiamo, .next-chisiamo {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -943,13 +385,13 @@ footer ul{
 }
 
 /* Position the "next button" to the right */
-.next {
+.next, .next-chisiamo {
   right: 0;
   border-radius: 50px 0 0 50px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
+.prev:hover, .next:hover, .prev-chisiamo:hover, .next-chisiamo:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
@@ -974,7 +416,7 @@ footer ul{
 }
 
 /* The dots/bullets/indicators */
-.dot {
+.dot, .dot-chisiamo {
   cursor: default;
   height: 10px;
   width: 10px;
@@ -992,7 +434,7 @@ footer ul{
 }
 
 /* Fading animation */
-.fade {
+.fade, .fade-chisiamo {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 2s;
   animation-name: fade;
@@ -1007,10 +449,6 @@ footer ul{
 @keyframes fade {
   from {opacity: .6}
   to {opacity: 1}
-}
-
-.game-background{
-  background-image: url('../../img/GreenSchoolsGeneralImage/Untitled-1.png') !important;
 }
 
 iframe{
@@ -1050,148 +488,6 @@ iframe.center, button.center {
   transform: scale(1.05);
   background-image: url('../../img/GreenSchoolsButton/Hover.svg') repeat;
 }*/
-.button-download p{
-  font-family: Raleway-Light;
-  font-size: 23px;
-  padding: 25px 25px;
-}
-
-.button-link{
-  border-radius: 100px;
-  transition: ease-in-out 0.3s;
-  border: none;
-  color: black;
-  margin-left: auto;
-  margin-right: auto;
-}
-.button-link > a{
-  margin: 0px;
-  color: black;
-}
-
-.button-link:hover {
-  transform: scale(1.05);
-}
-
-.background-navbar{
-  background-image: url('../../img/GreenSchoolsGeneralImage/grass.png') !important;
-}
-
-/* START LIMIT CSS */
- 
-.limit-section h1{
-  text-align: center;
-  color: #ff6d4b;
-  font-family: Raleway-Bold;
-  font-size: 75px;
-}
- 
-.limit-content h3{
-  font-family: Raleway-SemiBold;
-  font-size: 18px;
-  margin: 2px;
-  color: white;
-}
- 
-.limit-content p{
-  font-family: Raleway-Regular;
-  font-size: 17px;
-  margin: 2px;
-  color: white;
-}
- 
-.limit-section{
-
-  background-color: #f5f5f5;
-  min-height: 10vh;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-bottom: 100px;
-  padding-top: 5px;
- 
-}
- 
- 
-.limit-items{
- 
-    max-width: 1000px;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-
-}
- 
- 
- 
-.limit-item{
-  margin-bottom: 40px;
-  width: 100%;
-
-}
- 
- 
-.limit-item:nth-child(odd){
- 
-  padding-right: calc(50% + 30px);
- 
-}
- 
-.limit-item:nth-child(even){
- 
-  padding-Left: calc(50% + 30px);
- 
-}
-
-.dxLimit, .sxLimit{
-  left: auto;
-}
- 
- 
-.limit-content{
- 
-  background-color: #ff6d4b ;
-  border-radius: 10px;
-  display: flex;
-  align-items: center;
-
-}
-
-.limit-image{
-
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  
-}
-
-.limit-text{
-  text-align: left;
-  width: 120%;
-  line-height: 70%;
-  padding-left: 5%;
-}
-
-.future-download h3{
-  text-align: center;
-  color: white;
-  font-family: Raleway-Bold;
-  font-size: 40px;
-}
-
-.limit-section-title{
-  padding-top: 5%;
-  color: #ff6d4b;
-  font-size: 70px;
-}
-
-.concrete-acions p{
-  color: #a444f8 !important;
-}
- 
-.sign-goodPract{
-  width: 30%;
-  border-radius: 10px;
-}
 
 .minecraft-trailer{
   display: flex;
@@ -1199,18 +495,42 @@ iframe.center, button.center {
   border-radius: 20px;
 }
 
+.button-link-other-resources{
+  border-radius: 100px;
+  transition: ease-in-out 0.4s;
+  overflow: hidden;
+  border: none;
+  background-color: #00BF59;
+  display: inline-block;
+  text-align: center;
+  outline: none;
+  font-family: Raleway-Light;
+  font-size: 30px;
+  padding: 20px;
+  /*box-shadow: 0px 7px rgb(112, 112, 112);*/
+}
+
+.button-link-other-resources > a{
+  margin: 0px;
+  text-decoration: none;
+  color: white;
+}
+
+.other-resources{
+ padding-bottom: 10%;
+}
+
+.resources-container{
+  display: flex;
+  margin-left: 18%;
+  margin-right: 18%;
+}
+
+.button-link-other-resources:hover{
+  
+  background-color: #008e42;
+  
+}
 
 /* FINISH LIMIT CSS */
 
-/*===========RESPONSIVE===========*/
-
-/*==========FOR SMALL DEVICES=====*/
-
-/*=========FOR MEDIUM DEVICES=====
-
-@media screen and (min-width: 568px){
-
-
-}
-*/
-/*=========FOR LARGE DEVICES=====*/

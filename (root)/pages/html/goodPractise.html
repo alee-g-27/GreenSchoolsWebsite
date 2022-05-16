@@ -5,75 +5,107 @@
     <title>Good Practise</title>
     <meta charset="utf-8" lang="it">
     <link rel="stylesheet" href="../css/style.css" type="text/css">
+    <link rel="stylesheet" href="../css/goodPractice.css" type="text/css">
+    <link rel="stylesheet" href="../css/navbar.css" type="text/css">
+    <link rel="stylesheet" href="../css/arrow.css" type="text/css">
+    <link rel="stylesheet" href="../css/footer.css" type="text/css">
+    <link rel="stylesheet" href="../css/mobile.css" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="shortcut icon" type="image/png" href="../../img/GreenSchoolsFavIcon/GS-PROFILE-IMAGE.jpg">
+    <script scr="../js/navbar.js"></script>
 
 </head>
 <body>
-
+    
     <div class="loader hidden">
+
         <img src="../../img/GreenSchoolsLoadingAnimation/animation-goodpract.gif" alt="loading-animation">
+
     </div>
 
-    <div class="nav-bar" align="center " id="top-page" style="  background-color: #a444f8;">
-        <nav>
-            <ul>
-                <li><a href="./project.html "><img  src="../../img/GreenSchoolsSiteIcon/prj.svg" alt="The Project Image"><p>Il Progetto</p></a></li>
-                <li><a href="./study.html "><img  src="../../img/GreenSchoolsSiteIcon/study.svg" alt="The Study Image"><p>Lo Studio</p></a></li>
-                <li><a href="../../index.html "><img src="../../img/GreenSchoolsSiteIcon/small-leaf-border.svg" alt="leaf" class="home-svg-nav-bar"><p>Home</p></a></li>
-                <li><a href="./goodPractise.html "><img src="../../img/GreenSchoolsSiteIcon/goodpract.svg" alt="The Good Practice Image"><p>Buone Pratiche</p></a></li>
-                <li><a href="./game.html "><img src="../../img/GreenSchoolsSiteIcon/game.svg" alt="The Game Image"><p>Il Gioco</p></a></li>
-            </ul>
-        </nav>
-    </div>
-    <!--
-    <div class="go-top-image">
-        <a href="#top-page"><img src="../../img/GreenSchoolsGeneralcon/toTop.svg" alt="button-toTop"></a>
-    </div>
-    -->
+    <nav class="nav" style="background-color: #a444f8">
+        
+        <input type="checkbox" id="check">
+
+        <label for="check" class="checkbtn">
+            <img src="../../img/GreenSchoolsButton/3lines.png" alt="3lines">
+        </label>
+
+        <label class="logo"><a href="http://www.iisvittorioveneto.edu.it/2018" target="_blank"><img src="../../img/GreenSchoolsButton/iisvv.png" alt=""></a></label>
+
+        <ul style="background: #a444f8">
+            <li><a class="nav-link" href="../../index.html">Home</a></li>
+            <li><a class="nav-link" href="./project.html">Il Progetto</a></li>
+            <li><a class="nav-link" href="./study.html">Lo Studio</a></li>
+            <li><a class="act nav-link" href="./goodPractise.html">Buone Pratiche</a></li>
+            <li><a class="nav-link" href="./game.html">Il Gioco</a></li>
+        </ul>
+
+    </nav>
     
     <div>
-        <img src="../../img/GreenSchoolsGeneralcon/goodPract.svg" alt="study-page-image" class="study-svg">
+
+        <img src="../../img/GreenSchoolsGeneralcon/goodPract.svg" alt="study-page-image" class="study-svg goodPract-svg">
+
         <p class="goodPract-title" style="margin-bottom: 10px; margin-top: 50px;" >BUONE PRATICHE</p>
-        <p class="slider-info-project" style="color: #a444f8">SCORRI PER INIZIARE</p>
+        <p class="slider-info-project slider-info-gp" style="color: #a444f8">SCORRI PER INIZIARE</p>
+
         <div class="scroll-page-div" >
+
             <a href="#goodPract-text" class="scroll-home-page"><img src="../../img/GreenSchoolsGeneralcon/arrow-purple.svg" alt="arrow" class="arrow-svg" style="padding-bottom: 60%;"></a>
+        
         </div> 
  
     </div>
 
     <div class = "goodPract-text"  style="background-color: #a444f8">
+        
         <h1 id="goodPract-text" data-aos="zoom-in">Come possiamo agire?</h1>
-        <p style="padding-bottom: 2%;" data-aos="fade-left"> Per salvare il pianeta, dobbiamo effettuare delle azioni chiamate: <br>
+
+        <p style="padding-bottom: 2%;"> Per salvare il pianeta, dobbiamo effettuare delle azioni chiamate: <br>
+
             <strong>BUONE PRATICHE</strong>
+
         </p>
 
         <div class="slideshow-container" data-aos="fade-in">
 
-          <div class="mySlides fade">
+            <div class="mySlides fade">
+
                 <img class="slideshow-image" src="../../img/GreenSchoolsGeneralImage/goodpractice-slideshow/1stSlide1.png" style="width:100%">
-          </div>
           
-          <div class="mySlides fade">
+            </div>
+          
+            <div class="mySlides fade">
+
                 <img class="slideshow-image" src="../../img/GreenSchoolsGeneralImage/goodpractice-slideshow/2ndSlide2.png" style="width:100%">
-          </div>
-
-          <div class="mySlides fade">
-                <img class="slideshow-image" src="../../img/GreenSchoolsGeneralImage/goodpractice-slideshow/3rdslide3.png" style="width:100%">
-          </div>
-
-          <div class="mySlides fade">
-                <img class="slideshow-image" src="../../img/GreenSchoolsGeneralImage/goodpractice-slideshow/4thslide4.png" style="width:100%">
-          </div>
-
-          <div class="mySlides fade">
-            <img class="slideshow-image" src="../../img/GreenSchoolsGeneralImage/goodpractice-slideshow/5thslide5.png" style="width:100%">
-          </div>
           
-          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-          <a class="next" onclick="plusSlides(1)">&#10095;</a>
-          </div>
-          <br>
+            </div>
+
+            <div class="mySlides fade">
+
+                <img class="slideshow-image" src="../../img/GreenSchoolsGeneralImage/goodpractice-slideshow/3rdslide3.png" style="width:100%">
+          
+            </div>
+
+            <div class="mySlides fade">
+
+                <img class="slideshow-image" src="../../img/GreenSchoolsGeneralImage/goodpractice-slideshow/4thslide4.png" style="width:100%">
+            
+            </div>
+
+            <div class="mySlides fade">
+
+                <img class="slideshow-image" src="../../img/GreenSchoolsGeneralImage/goodpractice-slideshow/5thslide5.png" style="width:100%">
+            
+            </div>
+          
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            
+            </div>
+            <br>
           
           <!-- The dots/circles -->
           <div style="text-align:center">
@@ -85,40 +117,27 @@
 
             </div>
 
-        <!--<img src="./img/GreenSchoolsTeam/PROVA.png" alt="DA-FARE">-->
-        <!--<div class="separate-line"></div>-->
-        <p  style="padding-top: 2%  !important;" data-aos="fade-right"> É necessario per salvaguardare noi e il <strong>FUTURO</strong>  che verrà.<br>
+        <p  style="padding-top: 2%  !important;"> É necessario per salvaguardare noi e il <strong>FUTURO</strong>  che verrà.<br>
             Sopra si può trovare una carrellata di "slogan" o buone azioni per migliorare l'ambiente.
 
         </p>
     </div>
-<!--
-    <div class = "concrete-acions">
-        <h1 class="presentation-title" style="color: #a444f8; font-size: 90px;">
-            Azioni Concrete
-        </h1>
-
-        <p>
-            Per la diffusione delle
-        </p>
-
-        <img src="../../img/GreenSchoolsGoodPractice/Happy.jpg" alt="sing" class="sign-goodPract">
-
-
-
-    </div>-->
 
     <div style="background-color: #f5f5f5">
+
         <h1 class="presentation-title" style="color: #a444f8" data-aos="fade-down">
-            Scopri altre nuove pratiche <br> per migliorare l'ambiente!
+            Presentazione delle <br>Buone Pratiche
         </h1>
+
+        <p class="goodPract-pres-text" data-aos="fade-up">Qui sarà possibile aprire e visualizzare una presentazione,<br> necessaria per la diffusione delle Buone Norme.</p>
+
         <div class="body-post" style=" min-height: 10vh !important;">
 
             <div class="blog-posts">
     
-                <div class="post toCenter" style="width: 40%;" data-aos="zoom-in">
+                <div class="post toCenter" data-aos="zoom-in">
                     <a href="https://prezi.com/view/ifMwjGAx8bhlto99XwxE/" target="_blank" title="Clicca"> <img src="../../img/GreenSchoolsGeneralImage/goodpractice-slideshow/goodPract.png" alt="foto" class="post-img"></a>
-                        <div class="post-content">
+                        <div class="post-content content-goodPr">
                          <h3>Buone Pratiche</h3>
          
                          <span class="descrizione" style="color: #a444f8;">Amerigo Borgato</span>
@@ -129,51 +148,189 @@
         </div>
     </div>
 
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class = "footer-col">
-                    <h4>scuola</h4>
-                    <ul>
-                        <li class="footer-link"> <a href="http://www.iisvittorioveneto.edu.it/2018" target="_blank">I.I.S. "Città della Vittoria"</a></li>
-                        <li>Via Vittorio Emanuele II, 97</li>
-                        <li>31029 Vittorio Veneto, TV</li>
-                    </ul>
-                </div>
-    
-                <div class = "footer-col">
-                    <h4>provincia</h4>
-                    <ul>
-    
-                        <!--<li class="footer-link"><a href="" target="_blank">Progetto GreenSchools</a></li>-->
-                        <li class="footer-link">Progetto <a href="https://www.trevisoscuole.it/green-schools-competition-2-2/" target="_blank">Green Schools</a></li>
-                        <li class="footer-link">Collaborazione con la <a href="https://www.trevisoscuole.it/" target="_blank">Provincia di Treviso</a></li>
-    
-                    </ul>
-                </div>
-    
-                <div class = "footer-col">
-                    <h4>seguici</h4>
-                    <ul>
+    <div class="concrete-actions-section goodPract-text">
+        <h1 data-aos="fade-down">
+            Azioni concrete
+        </h1>
 
-                        <li class="footer-link"><a href="" target="_blank"></a></li>
-                        <a href="https://www.facebook.com/profile.php?id=100077519273791" target="_blank"><img src="../../img/GreenSchoolsSocialIcon/svg/facebook.svg" alt="facebook" class="social-icon"></a>
-                        <a href="https://www.instagram.com/energyteamittvv/" target="_blank"><img src="../../img/GreenSchoolsSocialIcon/svg/instagram.svg" alt="instagram" class="social-icon"></a>
-                        <a href="https://twitter.com/EnergyTeamITTVV" target="_blank"><img src="../../img/GreenSchoolsSocialIcon/svg/twitter.svg" alt="twitter" class="social-icon"></a>
-                        <a href="https://www.tiktok.com/@energyteamiisvv" target="_blank"><img src="../../img/GreenSchoolsSocialIcon/svg/tiktok.svg" alt="tik-tok" class="social-icon"></a>
-    
-    
-                    </ul>
+        <p data-aos="fade-up">Con lo spirito di "ridurre gli sprechi energetici"
+            l'Energy Team <br>ha analizzato i consumi elettrici del nostro istituto, 
+            cercando dei<br>modi efficaci per ridurli al minimo, dividendoli in fasi.
+        </p>
+
+        <!--START phase SECTION-->
+    <div class="phase-section">
+
+        <div class="phase-items">
+
+            <div class="phase-item fade-in fromSX">
+                <div class="phase-content">
+               
+                    <div class="phase-image">
+                        
+                        <img src="../../img/GreenSchoolsConcreteActions/1FASE.png">
+
+                    </div>
+
+                    <div class="phase-text">
+                        <p>Analisi ambienti scolastici, 
+                            induviduando dove il consumo elettrico è più rilevante
+                            </p>
+                    </div> 
                 </div>
             </div>
-            <br><hr style="height:1px;border-width:0;background-color:gray">
-            <div class="row lang-section">
-                <p>Copyright © 2022 I.I.S. "Città della Vittoria". Tutti i diritti sono riservati.</p>
-                <!--<a href="#" language='italian'><img src="../../img/GreenSchoolsLanguage/it.svg" alt="ita-flag" class="flag" style="margin-right: 30%;"></a>
-                <a href="#" language='english'><img src="../../img/GreenSchoolsLanguage/gb.svg" alt="uk-flag" class="flag"></a>-->
+
+            <div class="phase-item dxphase">
+                <div class="phase-content">
+               
+                    <div class="phase-image">
+                        
+                        <img src="../../img/GreenSchoolsConcreteActions/2FASE.png">
+
+                    </div>
+
+                    <div class="phase-text">
+                        <p>Elenco delle buone pratiche, 
+                            da attivare nei vari ambienti
+                            </p>
+                    </div> 
+                </div>
+            </div>
+
+
+            <div class="phase-item sxphase">
+                <div class="phase-content">
+               
+                    <div class="phase-image">
+                        
+                        <img src="../../img/GreenSchoolsConcreteActions/3FASE.png">
+
+                    </div>
+
+                    <div class="phase-text">
+                        <p>Scelta di un periodo di riferimento, 
+                            per la lettura dei consumi dopo la diffusione delle Buone Pratiche
+                            </p>
+                    </div> 
+                </div>
+            </div>
+
+            <div class="phase-item dxphase">
+                <div class="phase-content">
+               
+                    <div class="phase-image">
+                        
+                        <img src="../../img/GreenSchoolsConcreteActions/4FASE.png">
+
+                    </div>
+
+                    <div class="phase-text">
+                        <p>Interventi informativi nelle classi, <br>
+                            per la diffusione delle buone norme
+                            </p>
+                    </div> 
+                </div>
+            </div>
+
+            <div class="phase-item sxphase">
+                <div class="phase-content">
+               
+                    <div class="phase-image">
+                        
+                        <img src="../../img/GreenSchoolsConcreteActions/5FASE.png">
+
+                    </div>
+
+                    <div class="phase-text">
+                        <p>Raccolta e analisi dati consumo elettrico, 
+                            per i periodi di riferimento
+                            
+                        </p>
+                    </div> 
+                </div>
+            </div>
+
+            <div class="phase-item dxphase">
+                <div class="phase-content">
+               
+                    <div class="phase-image">
+                        
+                        <img src="../../img/GreenSchoolsConcreteActions/6FASE.png">
+
+                    </div>
+
+                    <div class="phase-text">
+                        <p>Analisi dei dati raccolti, 
+                            indicazioni degli interventi migliorativi
+                            </p>
+                    </div> 
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    </div>
+
+
+    
+    <div class="attdiritorno" id="attivitàdiritorno">
+        <h1>Attività di ritorno</h1>
+        <p>
+
+            Una volta esposte le buone pratiche, e il nostro progetto<br>
+            a diverse classi, queste ultime hanno prodotto delle <br>
+            presentazioni che sono state a loro volta esposte. <br>
+            Successivamente sarà possibile aprirle e visualizzarle.
+        </p>
+
+        <div class="body-post">
+
+            <div class="blog-posts">
+    
+                <div class="post">
+                    <a href="https://prezi.com/view/iGn8VprT7xIniMtBJDC0/" target="_blank" title="Clicca"> <img src="../../generalresources/attivitadiritorno/1b.png" alt="foto" class="post-img"></a>
+                     <div class="post-content">
+                         <h3>Energia Idroelettrica</h3>
+         
+                         <span class="descrizione">1^B</span>
+                     </div>
+                 </div>
+
+                 <div class="post">
+                    <a href="../../generalresources/attivitadiritorno/1c.pdf" target="_blank" title="Clicca" download="1c"> <img src="../../generalresources/attivitadiritorno/1c.png" alt="foto" class="post-img"></a>
+                     <div class="post-content">
+                         <h3>Sviluppo Sostenibile</h3>
+         
+                         <span class="descrizione">1^C</span>
+                     </div>
+                 </div>
+
+                 <div class="post">
+                    <a href="https://prezi.com/view/JLxwuYexLX4kTLSvHIM2/" target="_blank" title="Clicca"> <img src="../../generalresources/attivitadiritorno/1d.png" alt="foto" class="post-img"></a>
+                     <div class="post-content">
+                         <h3>Monopattini Elettrici</h3>
+         
+                         <span class="descrizione">1^D</span>
+                     </div>
+                 </div>
+
+                 <div class="post">
+                    <a href="../../generalresources/attivitadiritorno/1c.pdf" target="_blank" title="Clicca" download="1e"> <img src="../../generalresources/attivitadiritorno/1e.png" alt="foto" class="post-img"></a>
+                     <div class="post-content">
+                         <h3>Impianti Fotovoltaici</h3>
+         
+                         <span class="descrizione">1^E</span>
+                     </div>
+                 </div>
+                </div>
+         
+                 
             </div>
         </div>
-    </footer>  
+    </div>
+
+  
     
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
@@ -181,6 +338,51 @@
 </script>
 
 </body>
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class = "footer-col">
+                <h4>scuola</h4>
+                <ul>
+                    <li class="footer-link"> <a href="http://www.iisvittorioveneto.edu.it/2018" target="_blank"> <p class="link-text">I.I.S. "Città della Vittoria"</p></a></li>
+                    <li>Via Vittorio Emanuele II, 97</li>
+                    <li>31029 Vittorio Veneto, TV</li>
+                </ul>
+            </div>
+
+            <div class = "footer-col">
+                <h4>provincia</h4>
+                <ul>
+
+                    <!--<li class="footer-link"><a href="" target="_blank">Progetto GreenSchools</a></li>-->
+                    <li class="footer-link">Progetto <a href="https://www.trevisoscuole.it/green-schools-competition-2-2/" target="_blank"><p class="link-text">Green Schools</p></a></li>
+                    <li class="footer-link">Collaborazione con la <a href="https://www.trevisoscuole.it/" target="_blank"> <p class="link-text">Provincia di Treviso</p></a></li>
+
+                </ul>
+            </div>
+
+            <div class = "footer-col">
+                
+                <h4>seguici</h4>
+                <ul>
+
+                    <li class="footer-link"><a href="" target="_blank"></a></li>
+                    <a href="https://www.facebook.com/profile.php?id=100077519273791" target="_blank"><img src="../../img/GreenSchoolsSocialIcon/svg/facebook.svg" alt="facebook" class="social-icon"></a>
+                    <a href="https://www.instagram.com/energyteamittvv/" target="_blank"><img src="../../img/GreenSchoolsSocialIcon/svg/instagram.svg" alt="instagram" class="social-icon"></a>
+                    <a href="https://twitter.com/EnergyTeamITTVV" target="_blank"><img src="../../img/GreenSchoolsSocialIcon/svg/twitter.svg" alt="twitter" class="social-icon"></a>
+                    <a href="https://www.tiktok.com/@energyteamiisvv" target="_blank"><img src="../../img/GreenSchoolsSocialIcon/svg/tiktok.svg" alt="tik-tok" class="social-icon"></a>
+
+                </ul>
+
+            </div>
+        </div>
+        <br><hr style="height:1px;border-width:0;background-color:gray">
+        <div class="row lang-section">
+            <p>Copyright © 2022 I.I.S. "Città della Vittoria". Tutti i diritti sono riservati.</p>
+        </div>
+    </div>
+</footer>
 
     <!------------------------------------SUPPORTO--------------------------------------------->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -191,8 +393,6 @@
 
 <script type="text/javascript" src="../js/go-top-image-fade-animation.js"></script>
 
-
-<!--<script type="text/javascript" src="../js/new-slideshow.js">-->
 </script>
 
 </html>

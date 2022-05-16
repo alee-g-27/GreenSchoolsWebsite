@@ -5,6 +5,13 @@
     <title>Game</title>
     <meta charset="utf-8" lang="it">
     <link rel="stylesheet" href="../css/style.css" type="text/css">
+    <link rel="stylesheet" href="../css/game.css" type="text/css">
+    <link rel="stylesheet" href="../css/navbar.css" type="text/css">
+    <link rel="stylesheet" href="../css/arrow.css" type="text/css">
+    <link rel="stylesheet" href="../css/footer.css" type="text/css">
+    <link rel="stylesheet" href="../css/mobile.css" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="shortcut icon" type="image/png" href="../../img/GreenSchoolsFavIcon/GS-PROFILE-IMAGE.jpg">
 
@@ -15,17 +22,23 @@
         <img src="../../img/GreenSchoolsLoadingAnimation/animation-game.gif" alt="loading-animation">
     </div>
     <div class="game-background"  style="padding-bottom: 10%;">
-        <div class="nav-bar background-navbar" align="center " id="top-page" style="background-color: #469912">
-            <nav>
-                <ul>
-                    <li><a href="./project.html "><img  src="../../img/GreenSchoolsSiteIcon/prj.svg" alt="The Project Image"><p>Il Progetto</p></a></li>
-                    <li><a href="./study.html "><img  src="../../img/GreenSchoolsSiteIcon/study.svg" alt="The Study Image"><p>Lo Studio</p></a></li>
-                    <li><a href="../../index.html "><img src="../../img/GreenSchoolsSiteIcon/small-leaf-border.svg" alt="leaf" class="home-svg-nav-bar"><p>Home</p></a></li>
-                    <li><a href="./goodPractise.html "><img src="../../img/GreenSchoolsSiteIcon/goodpract.svg" alt="The Good Practice Image"><p>Buone Pratiche</p></a></li>
-                    <li><a href="./game.html "><img src="../../img/GreenSchoolsSiteIcon/game.svg" alt="The Game Image"><p>Il Gioco</p></a></li>
-                </ul>
-            </nav>
-        </div>
+        <nav class="nav" style="background: url(../../img/GreenSchoolsGeneralImage/grass.png)">
+        
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <img src="../../img/GreenSchoolsButton/3lines.png" alt="3lines">
+            </label>
+            <label class="logo"><a href="http://www.iisvittorioveneto.edu.it/2018" target="_blank"><img src="../../img/GreenSchoolsButton/iisvv.png" alt=""></a></label>
+    
+            <ul style="background: url(../../img/GreenSchoolsGeneralImage/grass.png)">
+                <li><a class="nav-link" href="../../index.html">Home</a></li>
+                <li><a class="nav-link" href="./project.html">Il Progetto</a></li>
+                <li><a class="nav-link" href="./study.html">Lo Studio</a></li>
+                <li><a class="nav-link" href="./goodPractise.html">Buone Pratiche</a></li>
+                <li><a class="act nav-link" href="./game.html">Il Gioco</a></li>
+            </ul>
+    
+        </nav>
         <!--
         <div class="go-top-image">
             <a href="#top-page"><img src="../../img/GreenSchoolsGeneralcon/toTop.svg" alt="button-toTop"></a>
@@ -34,7 +47,7 @@
 
 
         <div>
-            <img src="../../img/GreenSchoolsSiteIcon/game-test.svg" alt="study-page-image" class="study-svg">
+            <img src="../../img/GreenSchoolsSiteIcon/game-test.svg" alt="study-page-image" class="study-svg game-svg">
             <p class="game-title" style="margin-bottom: 10px; margin-top: 50px;">IL GIOCO</p>
             <p class="slider-info-project" style="color: #ffffff;">SCORRI PER INIZIARE</p>
             <div class="scroll-page-div" >
@@ -44,50 +57,41 @@
 
         <div class = "game-text">
             <h1 id="game-text"  data-aos="zoom-in">Imparare divertendosi?</h1>
-            <p style="padding-bottom: 2%;" data-aos="fade-left">L'Energy Team ha ideato una mod per <br> Minecraft Java Edition, 
+            <p style="padding-bottom: 2%;" data-aos="fade-down">L'Energy Team ha ideato una mod per <br> Minecraft Java Edition, 
               educando gli utilizzatori <br>tramite un apprendimento interattivo.</p>
 
-                <!--<div class="slideshow-container">
-
-                <div class="mySlides fade">
-                    <img class="slideshow-image" src="../../img/GreenSchoolsGeneralImage/game-slideshow/1st.png" style="width:100%">
-                </div>
-                
-                <div class="mySlides fade">
-                    <img class="slideshow-image" src="../../img/GreenSchoolsGeneralImage/game-slideshow/2nd.png" style="width:100%">
-                </div>
-    
-                <div class="mySlides fade">
-                    <img class="slideshow-image" src="../../img/GreenSchoolsGeneralImage/game-slideshow/3rd.png" style="width:100%">
-                </div>
-    
-                
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
-                </div>
-                <br>
-                
-                <!-- The dots/circles 
-                <div style="text-align:center">
-                <span class="dot"></span>
-                <span class="dot"></span>
-                <span class="dot"></span>
-    
-    
-            </div>-->
             <iframe data-aos="zoom-in" width="810" height="456" src="https://www.youtube.com/embed/f2z1eYN2_ds" title="YouTube video player" 
                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                     allowfullscreen class="minecraft-trailer">
             </iframe>
 
-             <p style="padding-bottom: 10%;" data-aos="fade-right"> Nelle parti successive di questa pagina,<br> 
+             <p style="padding-bottom: 10%;" data-aos="fade-down"> Nelle parti successive di questa pagina,<br> 
                 potrete scaricare ed installare l'add-on tramite <br>
                 procedimento video-guidato.</p>
         </div>
     
-        <div class="future-download">
+        <!--<div class="future-download">
             <h3 data-aos="zoom-in">Il download sarà presto disponibile!</h3>
+        </div>-->
+
+        <!--<div class="installation-tutorial">
+
+            <p>Segui il video per installare l'add-on</p>
+
+        </div>-->
+
+        <div class="download-section">
+
+            <h1 data-aos="fade-down">Scarica l'add-on!</h1>
+
+
+            <button class="center download-button" data-aos="fade-up" >
+                <a href="../../generalresources/add-on/EnergyTeamIISVV-Minigame.zip" download="EnergyTeamIISVV-Minigame">Download</a>
+            </button>
+               
+
         </div>
+
 
 </div>
 
@@ -103,7 +107,7 @@
             <div class = "footer-col">
                 <h4>scuola</h4>
                 <ul>
-                    <li class="footer-link"> <a href="http://www.iisvittorioveneto.edu.it/2018" target="_blank">I.I.S. "Città della Vittoria"</a></li>
+                    <li class="footer-link"> <a href="http://www.iisvittorioveneto.edu.it/2018" target="_blank"> <p class="link-text">I.I.S. "Città della Vittoria"</p></a></li>
                     <li>Via Vittorio Emanuele II, 97</li>
                     <li>31029 Vittorio Veneto, TV</li>
                 </ul>
@@ -114,8 +118,8 @@
                 <ul>
 
                     <!--<li class="footer-link"><a href="" target="_blank">Progetto GreenSchools</a></li>-->
-                    <li class="footer-link">Progetto <a href="https://www.trevisoscuole.it/green-schools-competition-2-2/" target="_blank">Green Schools</a></li>
-                    <li class="footer-link">Collaborazione con la <a href="https://www.trevisoscuole.it/" target="_blank">Provincia di Treviso</a></li>
+                    <li class="footer-link">Progetto <a href="https://www.trevisoscuole.it/green-schools-competition-2-2/" target="_blank"> <p class="link-text">Green Schools</p></a></li>
+                    <li class="footer-link">Collaborazione con la <a href="https://www.trevisoscuole.it/" target="_blank"> <p class="link-text">Provincia di Treviso</p></a></li>
 
                 </ul>
             </div>

@@ -5,10 +5,15 @@
     <title>Study</title>
     <meta charset="utf-8" lang="it">
     <link rel="stylesheet" href="../css/style.css" type="text/css">
+    <link rel="stylesheet" href="../css/study.css" type="text/css">
+    <link rel="stylesheet" href="../css/navbar.css" type="text/css">
+    <link rel="stylesheet" href="../css/arrow.css" type="text/css">
+    <link rel="stylesheet" href="../css/footer.css" type="text/css">
+    <link rel="stylesheet" href="../css/mobile.css" type="text/css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
     <link rel="shortcut icon" type="image/png" href="../../img/GreenSchoolsFavIcon/GS-PROFILE-IMAGE.jpg">
-
+    
 </head>
 <body>
 
@@ -16,23 +21,23 @@
         <img src="../../img/GreenSchoolsLoadingAnimation/animation-study.gif" alt="loading-animation">
     </div>
 
-    <div class="nav-bar" align="center " id="top-page" style="  background-color: #00B1FF">
-        <nav>
-            <ul>
-                <li><a href="./project.html "><img  src="../../img/GreenSchoolsSiteIcon/prj.svg" alt="The Project Image"><p>Il Progetto</p></a></li>
-                <li><a href="./study.html "><img  src="../../img/GreenSchoolsSiteIcon/study.svg" alt="The Study Image"><p>Lo Studio</p></a></li>
-                <li><a href="../../index.html "><img src="../../img/GreenSchoolsSiteIcon/small-leaf-border.svg" alt="leaf"><p>Home</p></a></li>
-                <li><a href="./goodPractise.html "><img src="../../img/GreenSchoolsSiteIcon/goodpract.svg" alt="The Good Practice Image"><p>Buone Pratiche</p></a></li>
-                <li><a href="./game.html"><img src="../../img/GreenSchoolsSiteIcon/game.svg" alt="The Game Image"><p>Il Gioco</p></a></li>
-            </ul>
-        </nav>
-    </div>
-    <!--
-    <div class="go-top-image">
-        <a href="#top-page"><img src="../../img/GreenSchoolsGeneralcon/toTop.svg" alt="button-toTop"></a>
-    </div>
-    -->
+    <nav class="nav" style="background-color: #00B1FF">
+        
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <img src="../../img/GreenSchoolsButton/3lines.png" alt="3lines" class="threelines">
+        </label>
+        <label class="logo"><a href="http://www.iisvittorioveneto.edu.it/2018" target="_blank"><img src="../../img/GreenSchoolsButton/iisvv.png" alt=""></a></label>
 
+        <ul style="background: #00B1FF">
+            <li><a class="nav-link" href="../../index.html">Home</a></li>
+            <li><a class="nav-link" href="./project.html">Il Progetto</a></li>
+            <li><a class="act nav-link" href="./study.html">Lo Studio</a></li>
+            <li><a class="nav-link" href="./goodPractise.html">Buone Pratiche</a></li>
+            <li><a class="nav-link" href="./game.html">Il Gioco</a></li>
+        </ul>
+
+    </nav>
 
     <div>
         <img src="../../img/GreenSchoolsGeneralcon/study-blue-hover.svg" alt="study-page-image" class="study-svg">
@@ -44,9 +49,10 @@
         </div>
 
     </div>
+    
     <div class = "study-text">
         <h1 id="study-text" data-aos="zoom-in">Cosa abbiamo capito?</h1>
-        <p data-aos="fade-left" style="padding-bottom: 1%;"> Alla luce del nostro progetto è stato necessario effettuare <br> delle ricerche per verificare 
+        <p data-aos="fade-down" style="padding-bottom: 1%;"> Alla luce del nostro progetto è stato necessario effettuare <br> delle ricerche per verificare 
              anche la fattibilità o meno <br>della nostra idea.</p>
 
             <div class="slideshow-container" data-aos="fade-in">
@@ -71,16 +77,26 @@
                 
                 <!-- The dots/circles -->
                 <div style="text-align:center">
-                <span class="dot"></span>
-                <span class="dot"></span>
-                <span class="dot"></span>    
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>    
     
-            </div>
+                </div>
 
-             <p style="padding-bottom: 3%;" data-aos="fade-right"> Successivamente si possono esplorare le diverse <br> 
+             <p style="padding-bottom: 3%;" data-aos="fade-down"> Successivamente si possono esplorare le diverse <br> 
                 presentazioni utili per la condivisione e la <br>
                 sensibilizzazione riguardo numerosi argomenti.</p>
 
+    </div>
+
+    <div>
+        <h1 class="documentazione">Documentazione</h1>
+        <p class="text-documentazione">Il nostro progetto di utilizzare i pannelli fotovoltaici per poter ricaricare un'auto elettrica 
+            necessita di un'approfondita ricerca di dati, costi e fattibilità. Tutto questo è stato documentato
+            attraverso delle presentazioni, facilmente comprensibili da chiunque visiti il nostro
+            sito e da alcuni documenti più formali. Qui vengono raccolti anche i dati relativi al consumo elettrico della nostra scuola, 
+            per mostrare quanta elettricità viene usata.
+        </p>
     </div>
 
     <div style="background-color: #f5f5f5">
@@ -91,7 +107,7 @@
 
             <div class="blog-posts">
     
-                <div class="post" data-aos="fade-right">
+                <div class="post" data-aos="fade-down">
                     <a href="https://prezi.com/view/dmaMhZndTncjdPEdYDyk/" target="_blank" title="Clicca"> <img src="../../img/GreenSchoolsGeneralImage/audi-presentation.jpg" alt="foto" class="post-img"></a>
                      <div class="post-content">
                          <h3>Potenze a Confronto</h3>
@@ -109,7 +125,7 @@
                       </div>
                   </div>
          
-                  <div class="post" data-aos="fade-left">
+                  <div class="post" data-aos="fade-down">
                      <a href="https://prezi.com/view/oGhgupK12n44hWte3kc6/" target="_blank" title="Clicca"> <img src="../../img/GreenSchoolsGeneralImage/fire-orange-emergency-burning-1-2220x800.png" alt="foto" class="post-img"></a>
                       <div class="post-content">
                           <h3>La Combustione</h3>
@@ -118,7 +134,7 @@
                       </div>
                   </div>
     
-                <div class="post"data-aos="fade-right">
+                <div class="post"data-aos="fade-down">
                    <a href="https://prezi.com/view/XBDXhcGFop6c1OEkiyQU/" target="_blank" title="Clicca"> <img src="../../img/GreenSchoolsGeneralImage/02_150-anni-auto-elettrica.png" alt="foto" class="post-img"></a>
                     <div class="post-content">
                         <h3>Auto Elettrica</h3>
@@ -136,7 +152,7 @@
                      </div>
                  </div>
         
-                 <div class="post" data-aos="fade-left">
+                 <div class="post" data-aos="fade-down">
                     <a href="https://prezi.com/view/XjhfYZ58EKM7zDSN4Yd4/" target="_blank" title="Clicca"> <img src="../../img/GreenSchoolsGeneralImage/ii-produttore-pannelli-solari-mondo-raddoppia-capacita-produttiva-v4-450086-1280x720.png" alt="foto" class="post-img"></a>
                         <div class="post-content">
                          <h3>Pannelli Solari</h3>
@@ -155,20 +171,36 @@
                  </div>
             </div>
         </div>
-    </div>
     
+    </div>
 
+    <div class="consumi-scuola">
 
+        <h1 class="title-consumi">Consumi della nostra scuola</h1>
+        <p class="text-consumi">L'anno scorso sono stati consumati circa 16500 kWh di energia elettrica durante il mese di Aprile. Quest'anno grazie all'applicazione delle buone norme c'è stato un decremento di circa 4000 kWh.
+        </p>
 
-</div>
+    </div>
 
+    <div class="fotovoltaici">
+
+        <h1 class="title-fotovoltaici">Impianti fotovoltaici</h1>
+        <p class="text-fotovoltaici">Esistono diversi tipi di impianti fotovoltaici, qui di seguito troverete alcuni grafici che mostrano i loro rendimenti stimati nei vari mesi.</p>
+        
+        <img src="../../img/GreenSchoolsGraphs/Impianto_3_KW.png" alt="Impianto 3 kW">
+        <img src="../../img/GreenSchoolsGraphs/Impianto_6_KW.png" alt="Impianto 6 kW">
+        <img src="../../img/GreenSchoolsGraphs/Impianto_10_KW.png" alt="Impianto 10 kW">
+        <br><br>
+        <img src="../../img/GreenSchoolsGraphs/chart.png" alt="Comparazione">
+
+    </div>
 <footer>
     <div class="container">
         <div class="row">
             <div class = "footer-col">
                 <h4>scuola</h4>
                 <ul>
-                    <li class="footer-link"> <a href="http://www.iisvittorioveneto.edu.it/2018" target="_blank">I.I.S. "Città della Vittoria"</a></li>
+                    <li class="footer-link"> <a href="http://www.iisvittorioveneto.edu.it/2018" target="_blank"> <p class="link-text">I.I.S. "Città della Vittoria"</p> </a></li>
                     <li>Via Vittorio Emanuele II, 97</li>
                     <li>31029 Vittorio Veneto, TV</li>
                 </ul>
@@ -179,8 +211,8 @@
                 <ul>
 
                     <!--<li class="footer-link"><a href="" target="_blank">Progetto GreenSchools</a></li>-->
-                    <li class="footer-link">Progetto <a href="https://www.trevisoscuole.it/green-schools-competition-2-2/" target="_blank">Green Schools</a></li>
-                    <li class="footer-link">Collaborazione con la <a href="https://www.trevisoscuole.it/" target="_blank">Provincia di Treviso</a></li>
+                    <li class="footer-link">Progetto <a href="https://www.trevisoscuole.it/green-schools-competition-2-2/" target="_blank"> <p class="link-text">Green Schools</p></a></li>
+                    <li class="footer-link">Collaborazione con la <a href="https://www.trevisoscuole.it/" target="_blank"><p class="link-text">Provincia di Treviso</p></a></li>
 
                 </ul>
             </div>
@@ -221,6 +253,7 @@
     <!----------------------------------------------------------------------------------------->
 
 <script type="text/javascript" src="../js/slideshow.js"></script>
+<script type="text/javascript" src="../js/toggle-menu.js"></script>
 
 <script type="text/javascript" src="../js/go-top-image-fade-animation.js"></script>
 

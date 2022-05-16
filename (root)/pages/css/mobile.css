@@ -1,0 +1,576 @@
+/*===========RESPONSIVE===========*/
+
+/*==========FOR SMALL DEVICES=====*/
+
+/*responsive for small devices*/
+
+@media (max-width: 700px) {
+  
+    .header-title-bottom, .header-title-top{
+      font-size: 80px !important;
+    }
+  
+    .header-title-top{
+      padding-top: 48% !important;
+    }
+  
+    .header-title-bottom{
+      padding-bottom: 20%;
+    }
+
+    .home-svg{
+      width: 80%;
+    }
+
+    .edition-text{
+      padding-top: -20% !important;
+      font-size: 30px !important;
+    }
+  
+    .slider-info{
+      font-size: 27px;
+    }
+
+    .slider-info-project{
+      margin-top: -10%;
+      font-size: 27px;
+    }
+
+    .slider-info-gp{
+      margin-top: 10%;
+    }
+  
+    .study-svg{
+      padding-top: 50%;
+      width: 90%;
+    }
+  
+    .scroll-page-div img{
+      transform: scale(0.9);
+      margin: 0 !important;
+    }
+  
+    .scroll-page-div{
+      margin: 0 !important;
+      padding-top: 5%;
+      padding-bottom: 10%;
+  
+    }
+    
+  
+    .home-text h1{
+  
+      font-size: 45px !important;
+  
+    }
+  
+    .home-text p{
+  
+      font-size: 20px !important;
+      margin-left: auto;
+      margin-right: auto;
+      inline-size: 300px !important;
+  
+    }
+
+    .other-resources h1{
+      font-size: 45px !important;
+      padding-top: 1%;
+  }
+  
+  .other-resources p{
+
+      font-size: 20px !important;
+
+  }
+
+  .button-link-other-resources{
+    outline: none;
+    font-size: 20px !important;
+    padding: 15px !important;
+    margin-bottom: 20px;
+    /*box-shadow: 0px 7px rgb(112, 112, 112);*/
+  }
+
+  
+  .other-resources{
+   padding-bottom: 10%;
+  }
+  
+  .resources-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+  }
+  
+  .button-link-other-resources:hover{
+    
+    background-color: #008e42;
+    
+  }
+  
+    .study-text h1{
+      font-size: 45px !important;
+    }
+  
+    .goodPract-text p{
+      font-size: 20px;
+      inline-size: 300px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    .study-text p , .game-text p{
+      font-size: 20px !important;
+    }
+
+    .game-text p{
+      inline-size: 300px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    .prj-text h1{
+      font-size: 65px;
+    }
+
+    .prj-text p{
+      font-size: 20px;
+      inline-size: 300px !important;
+      margin-left: auto;
+      margin-right: auto;
+
+    }
+  
+    .slideshow-container{
+      padding-top: 3%;
+      width: 85%;
+    }
+    
+    
+    .study-text p{
+      padding-bottom: 3%;
+      text-align: center;
+      color: white;
+      font-family: Raleway-Light;
+      font-size: 25px;
+      line-height: 150%;
+    }
+  
+  
+    .presentation-title{
+      padding-top: 10% !important;
+      font-size: 25px !important;
+    }
+  
+    .blog-posts{
+      font-family: Raleway-Light;
+      padding: 20px;
+      justify-content: space-between;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: calc(100% - 20px);
+      cursor: pointer;
+  }
+  
+  .post{
+    width: min(360px, 100%) !important;
+    align-items: center;
+    justify-content: center;
+    margin: 0px !important;
+
+
+  }
+  
+  .post-content{
+      margin: 0 10px;
+      padding: 15px;
+      transform: translateY(-60);
+      transition: .3s linear;
+  }
+  
+    .footer-col{
+      font-size: 15px;
+    }
+  
+    .social-icon{
+      margin-right: 20%;
+      transform: scale(2.7) !important;
+      margin-bottom: 20%;
+    }
+  
+    .under{
+      margin-top: 10% !important;
+      margin-bottom: 40% !important;
+    }
+  
+    .link-text{
+      font-size: 20px !important;
+    }
+  
+    /*.footer-col{
+      width: min(600px, 100%)
+    }*/
+  
+    .limit-items{
+      width: min(800px, 100%) 
+    }
+  
+    .footer-col h4{
+      font-size: 25px !important;
+      padding-top: 5%;
+    }
+  
+    .footer-col li{
+      font-size: 20px !important;
+    }
+  
+    .row{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .limit-section h1{
+      font-size: 50px;
+    }
+    .limit-content h3{
+      font-size: 15px;
+    }
+    .limit-content p{
+      font-size: 15px;
+    }
+    .limit-item{
+      width: 100%;
+  
+    }
+  
+    .limit-text p{
+      font-size: 15px;
+      line-height: 130%;
+      padding-left: 5%;
+  
+    }
+    .limit-item:nth-child(odd){
+      padding-right: 0px;
+    }
+    .limit-item:nth-child(even){
+      padding-Left: 0px;
+    }
+    .limit-items{
+      flex-wrap: wrap;
+    }
+    .limit-item{
+      height: 100%;
+    }
+    .limit-image{
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      transform: scale(1);
+      
+    }
+  
+    .limit-section-title{
+      font-size: 55px;
+      padding-bottom: 10%;
+      padding-top: 8%;
+    }
+  
+    .limit-text{
+      width: 100%;
+      padding-left: 0px;
+    }
+    .limit-content{
+      width: 100%;
+    }
+
+    /*Phase*/
+    /* START phase CSS */
+ 
+  .phase-section h1{
+    font-size: 50px;
+
+  }
+  
+  .phase-content h3{
+    font-size: 15px;
+
+  }
+  
+  .phase-content p{
+    font-size: 15px;
+
+  }
+  
+  .phase-section{
+
+    min-height: 10vh;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 100px;
+    padding-top: 5px;
+  
+  }
+  
+  .phase-items{
+  
+      width: min(800px, 100%) 
+    
+  }
+  
+  .phase-item{
+    width: 100%;
+
+  }
+  
+  
+  .phase-item:nth-child(odd){
+  
+      padding-right: 0px;
+      
+  }
+  
+  .phase-item:nth-child(even){
+  
+    padding-Left: 0px;
+  
+  }
+
+  .dxphase, .sxphase{
+    left: auto;
+  }
+  
+  
+  .phase-content{
+  
+    background-color:  #ffffff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+
+  }
+
+  .phase-image{
+
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+  }
+
+  .phase-text p{
+    font-size: 15px;
+    line-height: 130%;
+    padding-left: 1%;
+    inline-size: 150px;
+  }
+
+  .phase-section-title{
+    padding-top: 5%;
+    color: #ff6d4b;
+    font-size: 100px;
+    text-align: center;
+    font-family: Raleway-Bold;
+  }
+
+    
+.chi-siamo-title{
+
+    font-size: 50px;
+    padding-top: 10%;
+
+}
+
+.chi-siamo-text{
+
+    font-size: 20px;
+
+}
+  
+    .personTeamText{
+      font-family: Raleway-Regular;
+      font-size: 18px;
+      margin: 2px;
+      color: white;
+    }
+  
+    .personTeamName{
+      font-family: Raleway-SemiBold;
+      font-size: 20px;
+      margin: 2px;
+      color: white;
+    }
+  
+    .teamPeople{
+  
+      margin-left: auto;
+      margin-right: auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      width: 30%;
+    }
+
+    .teamParag{
+
+        font-size: 20px;
+
+    }
+
+    .teamTitle{
+
+        font-size: 50px;
+
+    }
+  
+    .personImage{
+      width: 200px;
+      height: 200px;
+    }
+  
+    .proj-svg{
+      width: 70%;
+      padding-top: 50%;
+      padding-bottom: 1%;
+    }
+  
+    .project-title{
+      font-size: 70px !important;
+      padding-bottom: 20%;
+    }
+  
+    .study-title{
+      font-size: 60px !important;
+      padding-bottom: 11%;
+    }
+  
+    .game-title{
+      font-size: 80px;
+      padding-bottom: 20%;
+    }
+  
+    .sign-goodPract{
+      width: 100%;
+    }
+    .minecraft-trailer{
+      width: 90%;
+    }
+  
+    .post-content h3{
+      font-size: 15px !important;
+    }
+  
+    .descrizione{
+      font-size: 15px !important;
+    }
+  
+    .goodPract-title{
+      font-size: 80px;
+      margin-top: 3% !important;
+    }
+  
+    .goodPract-svg{
+      padding-top: 6%;
+      padding-bottom: 5%;
+      width: 80% !important;
+    }
+  
+    .game-svg {
+      padding-top: 70%;
+      padding-bottom: 5%;
+      width: 80% !important;
+    }
+  
+    .goodPract-text h1{
+      font-size: 50px;
+    }
+  
+    .game-text h1{
+      padding-top: 10%;
+      font-size: 50px;
+      margin-left: 0% !important;
+      margin-right: 0% !important;
+    }
+
+    .attdiritorno h1{
+      padding-top: 10%;
+      font-size: 60px !important;
+    }
+
+    .attdiritorno p{
+      font-size: 20px !important;
+      inline-size: 330px !important;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .fotovoltaici img{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 90%;
+      margin: auto;
+    }
+
+    .fotovoltaci h1{
+      font-size: 45px !important;
+    }
+    
+    .documentazione {
+      font-size: 45px !important;
+    }
+
+    .title-fotovoltaici{
+      font-size: 45px !important;
+    }
+
+    .title-consumi{
+      font-size: 45px !important;
+    }
+    
+    .text-consumi{
+      font-size: 20px !important;
+    }
+
+    .text-fotovoltaici{
+      font-size: 20px !important;
+    }
+
+    .text-documentazione{
+      font-size: 20px !important;
+    }
+
+    .future-download h3{
+      font-size: 25px !important;
+      inline-size: 250px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .download-section{
+      padding-bottom: 50% !important;
+    }
+
+    .download-section h1{
+      font-size: 50px !important;
+      inline-size: 300px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .download-button{
+      width: 50% !important;
+    }
+    
+  }
+  
+  /*=========FOR MEDIUM DEVICES=====*/
+  
+  /*=========FOR LARGE DEVICES=====*/

@@ -5,7 +5,13 @@
     <title>Project</title>
     <meta charset="utf-8" lang="it">
     <link rel="stylesheet" href="../css/style.css" type="text/css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="../css/project.css" type="text/css">
+    <link rel="stylesheet" href="../css/navbar.css" type="text/css">
+    <link rel="stylesheet" href="../css/arrow.css" type="text/css">
+    <link rel="stylesheet" href="../css/footer.css" type="text/css">
+    <link rel="stylesheet" href="../css/mobile.css" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
     <link rel="shortcut icon" type="image/png" href="../../img/GreenSchoolsFavIcon/GS-PROFILE-IMAGE.jpg">
 
 </head>
@@ -15,24 +21,24 @@
         <img src="../../img/GreenSchoolsLoadingAnimation/animation-project.gif" alt="loading-animation">
     </div>
 
-    <div class="nav-bar" align="center " id="top-page" style="  background-color: #FF6D4B ">
-        <nav>
-            <ul>
-                <li><a href="./project.html "><img  src="../../img/GreenSchoolsSiteIcon/prj.svg" alt="The Project Image"><p>Il Progetto</p></a></li>
-                <li><a href="./study.html "><img  src="../../img/GreenSchoolsSiteIcon/study.svg" alt="The Study Image"><p>Lo Studio</p></a></li>
-                <li><a href="../../index.html "><img src="../../img/GreenSchoolsSiteIcon/small-leaf-border.svg" alt="leaf" class="home-svg-nav-bar"><p>Home</p></a></li>
-                <li><a href="./goodPractise.html "><img src="../../img/GreenSchoolsSiteIcon/goodpract.svg" alt="The Good Practice Image"><p>Buone Pratiche</p></a></li>
-                <li><a href="./game.html "><img src="../../img/GreenSchoolsSiteIcon/game.svg" alt="The Game Image"><p>Il Gioco</p></a></li>
-            </ul>
-        </nav>
-    </div>
-<!--
+    <nav class="nav" style="background-color: #FF6D4B;">
+        
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <img src="../../img/GreenSchoolsButton/3lines.png" alt="3lines">
+        </label>
+        <label class="logo"><a href="http://www.iisvittorioveneto.edu.it/2018" target="_blank"><img src="../../img/GreenSchoolsButton/iisvv.png" alt=""></a></label>
 
+        <ul style="background: #FF6D4B;">
+            <li><a class="nav-link" href="../../index.html">Home</a></li>
+            <li><a class="act nav-link" href="./project.html">Il Progetto</a></li>
+            <li><a class="nav-link" href="./study.html">Lo Studio</a></li>
+            <li><a class="nav-link" href="./goodPractise.html">Buone Pratiche</a></li>
+            <li><a class="nav-link" href="./game.html">Il Gioco</a></li>
+        </ul>
 
-    <div class="go-top-image">
-        <a href="#top-page"><img src="../../img/GreenSchoolsGeneralcon/toTop.svg" alt="button-toTop"></a>
-    </div>
--->
+    </nav>
+
     <div>
         <img src="../../img/GreenSchoolsGeneralcon/project.svg" alt="study-page-image" class="proj-svg">
         <p class="project-title" style="margin-bottom: 10px;">IL PROGETTO</p>
@@ -44,7 +50,7 @@
     
     <div class="prj-text" style="background-color: #ff6d4b;">
         <h1  id = "prj-text"   data-aos="zoom-in">In cosa consiste?</h1>
-        <p data-aos="fade-left">Il nostro progetto punta allo sviluppo di una colonnina per la <br>
+        <p data-aos="fade-down">Il nostro progetto punta allo sviluppo di una colonnina per la <br>
         ricarica di macchine elettriche, producento elettricità tramite <br> 
         pannelli fotovoltaici.</p>
 
@@ -72,16 +78,16 @@
             <span class="dot"></span>
             <span class="dot"></span>
             <span class="dot"></span>
-            <p style="padding-top: 2%  !important;" data-aos="fade-right">Visto l’ingente quantitativo di energia necessaria,<br> sono stati fissati dei "paletti"
+            <p style="padding-top: 2%  !important;" data-aos="fade-down">Visto l’ingente quantitativo di energia necessaria,<br> sono stati fissati dei "paletti"
                 per rendere la cosa <br>più realistica.
  
             </p>
         </div>
 
     </div>
-
-    <div class="prj-text-white">
-        <!--<h1>Naviga nelle diverse sezioni,<br>per scoprire di più del progetto!</h1>-->
+    
+    <!--< class="prj-text-white">
+        <h1>Naviga nelle diverse sezioni,<br>per scoprire di più del progetto!</h1>-->
 
     <!--START LIMIT SECTION-->
     <div class="limit-section">
@@ -90,7 +96,7 @@
 
         <div class="limit-items" style="padding-top: 5%;">
 
-            <div class="limit-item fade-in fromSX" data-aos="fade-right">
+            <div class="limit-item fade-in fromSX" data-aos="fade-down">
                 <div class="limit-content">
                
                     <div class="limit-image">
@@ -105,7 +111,7 @@
                 </div>
             </div>
 
-            <div class="limit-item dxLimit" data-aos="fade-left">
+            <div class="limit-item dxLimit" data-aos="fade-down">
                 <div class="limit-content">
                
                     <div class="limit-image">
@@ -121,7 +127,7 @@
             </div>
 
 
-            <div class="limit-item sxLimit" data-aos="fade-right">
+            <div class="limit-item sxLimit" data-aos="fade-down">
                 <div class="limit-content">
                
                     <div class="limit-image">
@@ -136,7 +142,7 @@
                 </div>
             </div>
 
-            <div class="limit-item dxLimit" data-aos="fade-left">
+            <div class="limit-item dxLimit" data-aos="fade-down">
                 <div class="limit-content">
                
                     <div class="limit-image">
@@ -152,7 +158,7 @@
                 </div>
             </div>
 
-            <div class="limit-item sxLimit" data-aos="fade-right">
+            <div class="limit-item sxLimit" data-aos="fade-down">
                 <div class="limit-content">
                
                     <div class="limit-image">
@@ -173,19 +179,51 @@
 
 <!--FINISH LIMIT SECTION-->
 
-    </div>
+    <div class="team" style="background-color: #ff6d4b;">
+        <span id="chi-siamo"></span>
+        <h1 class="chi-siamo-title" id="chi-siamo">Chi siamo</h1>
+        <p class="chi-siamo-text">
+            Siamo un gruppo di studenti di terza, quarta e quinta superiore dell'ITT di Vittorio Veneto
+
+            <div class="slideshow-container-chisiamo" data-aos="fade-in">
+
+            <div class="mySlides-chisiamo fade-chisiamo">
+                <img class="slideshow-image" src="../../img/GreenSchoolsChiSiamoSlideshow/IMG_1435.png" style="width:100%">
+            </div>
+
+            <div class="mySlides-chisiamo fade-chisiamo">
+                <img class="slideshow-image" src="../../img/GreenSchoolsChiSiamoSlideshow/IMG_1455.png" style="width:100%">
+            </div>
+
+            <div class="mySlides-chisiamo fade-chisiamo">
+                <img class="slideshow-image" src="../../img/GreenSchoolsChiSiamoSlideshow/IMG_1440.png" style="width:100%">
+            </div>
+            
+            <a class="prev-chisiamo" onclick="plusSlides2(-1)">&#10094;</a>
+            <a class="next-chisiamo" onclick="plusSlides2(1)">&#10095;</a>
+            </div>
+            <br>
+            
+            <!-- The dots/circles -->
+            <div style="text-align:center; padding-bottom: 3%;">
+            <span class="dot-chisiamo"></span>
+            <span class="dot-chisiamo"></span>
+            <span class="dot-chisiamo"></span>
+
+        </div>
+        </p>
+
 
     <!--Team Section-->
     
-    <div class="team" style="background-color: #ff6d4b;">
-        <p class="teamParag" data-aos="fade-right">Ecco i diversi componenti dell'...</p>
+        <p class="teamParag" data-aos="fade-down">Ecco i diversi componenti dell'...</p>
 
         <h1 data-aos="fade-down" class="teamTitle" id="goodPract-text">Energy Team</h1>
         
 
         <div class="teamPeople">
 
-            <div class="personTeam" data-aos="fade-right">
+            <div class="personTeam" data-aos="fade-down">
 
                 <img class="personImage" src="../../img/GreenSchoolsTeam/single/comp/ghironi.png">
                 <p class="personTeamName">Ghironi Alessandro</p>
@@ -193,7 +231,7 @@
 
             </div>
 
-            <div class="personTeam" data-aos="fade-left">
+            <div class="personTeam" data-aos="fade-down">
 
                 <img class="personImage" src="../../img/GreenSchoolsTeam/single/comp/sonego-min.png">
                 <p class="personTeamName">Sonego Alessio</p>
@@ -205,7 +243,7 @@
 
         <div class="teamPeople">
 
-            <div class="personTeam" data-aos="fade-right">
+            <div class="personTeam" data-aos="fade-down">
 
                 <img class="personImage" src="../../img/GreenSchoolsTeam/single/comp/chiesurin-min.png">
                 <p class="personTeamName">Chiesurin Diego</p>
@@ -213,7 +251,7 @@
 
             </div>
 
-            <div class="personTeam" data-aos="fade-left">
+            <div class="personTeam" data-aos="fade-down">
 
                 <img class="personImage" src="../../img/GreenSchoolsTeam/single/comp/ballarin-min.png">
                 <p class="personTeamName">Ballarin Pietro</p>
@@ -225,7 +263,7 @@
 
         <div class="teamPeople">
 
-            <div class="personTeam" data-aos="fade-right">
+            <div class="personTeam" data-aos="fade-down">
 
                 <img class="personImage" src="../../img/GreenSchoolsTeam/single/comp/tomasi-min.png">
                 <p class="personTeamName">Tomasi Samuele</p>
@@ -233,7 +271,7 @@
 
             </div>
 
-            <div class="personTeam" data-aos="fade-left">
+            <div class="personTeam" data-aos="fade-down">
 
                 <img class="personImage" src="../../img/GreenSchoolsTeam/single/comp/monetto-min.png">
                 <p class="personTeamName">Monetto Marco</p>
@@ -245,7 +283,7 @@
 
         <div class="teamPeople">
 
-            <div class="personTeam" data-aos="fade-right">
+            <div class="personTeam" data-aos="fade-down">
 
                 <img class="personImage" src="../../img/GreenSchoolsTeam/single/comp/Amerigo Borgato-min.png">
                 <p class="personTeamName">Borgato Amerigo</p>
@@ -253,7 +291,7 @@
 
             </div>
 
-            <div class="personTeam" data-aos="fade-left">
+            <div class="personTeam" data-aos="fade-down">
 
                 <img class="personImage" src="../../img/GreenSchoolsTeam/single/comp/Andrea Bit-min.png">
                 <p class="personTeamName">Bit Andrea</p>
@@ -265,7 +303,7 @@
 
         <div class="teamPeople">
 
-            <div class="personTeam" data-aos="fade-right">
+            <div class="personTeam" data-aos="fade-down">
 
                 <img class="personImage" src="../../img/GreenSchoolsTeam/single/comp/De Luca Riccardo-min.png">
                 <p class="personTeamName">De Luca Riccardo</p>
@@ -273,7 +311,7 @@
 
             </div>
 
-            <div class="personTeam" data-aos="fade-left">
+            <div class="personTeam" data-aos="fade-down">
 
                 <img class="personImage" src="../../img/GreenSchoolsTeam/single/comp/Davide Maria Meneghin-min.png">
                 <p class="personTeamName">Meneghin Davide Maria</p>
@@ -285,7 +323,7 @@
 
         <div class="teamPeople">
 
-            <div class="personTeam" data-aos="fade-right">
+            <div class="personTeam" data-aos="fade-down">
 
                 <img class="personImage" src="../../img/GreenSchoolsTeam/single/comp/salvador.png">
                 <p class="personTeamName">Salvador Alex</p>
@@ -293,7 +331,7 @@
 
             </div>
 
-            <div class="personTeam" data-aos="fade-left">
+            <div class="personTeam" data-aos="fade-down">
 
                 <img class="personImage" src="../../img/GreenSchoolsTeam/single/comp/Marco Baldassar.png">
                 <p class="personTeamName">Baldassar Marco</p>
@@ -305,7 +343,7 @@
 
         <div class="teamPeople">
 
-            <div class="personTeam" data-aos="fade-right">
+            <div class="personTeam" data-aos="fade-down">
 
                 <img class="personImage" src="../../img/GreenSchoolsTeam/single/comp/Nicola Falcomer-min.png">
                 <p class="personTeamName">Falcomer Nicola</p>
@@ -313,7 +351,7 @@
 
             </div>
 
-            <div class="personTeam" data-aos="fade-left">
+            <div class="personTeam" data-aos="fade-down">
 
                 <img class="personImage" src="../../img/GreenSchoolsTeam/single/comp/angelo_falcomer.png">
                 <p class="personTeamName">Falcomer Angelo</p>
@@ -343,7 +381,7 @@
                 <div class = "footer-col">
                     <h4>scuola</h4>
                     <ul>
-                        <li class="footer-link"> <a href="http://www.iisvittorioveneto.edu.it/2018" target="_blank">I.I.S. "Città della Vittoria"</a></li>
+                        <li class="footer-link"> <a href="http://www.iisvittorioveneto.edu.it/2018" target="_blank"> <p class="link-text">I.I.S. "Città della Vittoria"</p></a></li>
                         <li>Via Vittorio Emanuele II, 97</li>
                         <li>31029 Vittorio Veneto, TV</li>
                     </ul>
@@ -353,14 +391,14 @@
                     <h4>provincia</h4>
                     <ul>
     
-                        <!--<li class="footer-link"><a href="" target="_blank">Progetto GreenSchools</a></li>-->
-                        <li class="footer-link">Progetto <a href="https://www.trevisoscuole.it/green-schools-competition-2-2/" target="_blank">Green Schools</a></li>
-                        <li class="footer-link">Collaborazione con la <a href="https://www.trevisoscuole.it/" target="_blank">Provincia di Treviso</a></li>
+                        <li class="footer-link">Progetto <a href="https://www.trevisoscuole.it/green-schools-competition-2-2/" target="_blank"><p class="link-text">Green Schools</p></a></li>
+                        <li class="footer-link">Collaborazione con la <a href="https://www.trevisoscuole.it/" target="_blank"> <p class="link-text">Provincia di Treviso</p></a></li>
     
                     </ul>
                 </div>
     
                 <div class = "footer-col">
+                    
                     <h4>seguici</h4>
                     <ul>
 
@@ -370,15 +408,13 @@
                         <a href="https://twitter.com/EnergyTeamITTVV" target="_blank"><img src="../../img/GreenSchoolsSocialIcon/svg/twitter.svg" alt="twitter" class="social-icon"></a>
                         <a href="https://www.tiktok.com/@energyteamiisvv" target="_blank"><img src="../../img/GreenSchoolsSocialIcon/svg/tiktok.svg" alt="tik-tok" class="social-icon"></a>
     
-    
                     </ul>
+
                 </div>
             </div>
             <br><hr style="height:1px;border-width:0;background-color:gray">
             <div class="row lang-section">
                 <p>Copyright © 2022 I.I.S. "Città della Vittoria". Tutti i diritti sono riservati.</p>
-                <!--<a href="#" language='italian'><img src="../../img/GreenSchoolsLanguage/it.svg" alt="ita-flag" class="flag" style="margin-right: 30%;"></a>
-                <a href="#" language='english'><img src="../../img/GreenSchoolsLanguage/gb.svg" alt="uk-flag" class="flag"></a>-->
             </div>
         </div>
     </footer>  
@@ -396,6 +432,7 @@
     <!----------------------------------------------------------------------------------------->
 
 <script type="text/javascript" src="../js/slideshow.js"></script>
+<script type="text/javascript" src="../js/slideshow-chisiamo.js"></script>
 
 <script type="text/javascript" src="../js/go-top-image-fade-animation.js"></script>
 

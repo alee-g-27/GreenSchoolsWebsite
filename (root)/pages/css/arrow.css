@@ -1,0 +1,29 @@
+.arrow-svg{
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 200%;
+    margin-top: 25px;
+    transition: transform ease-in-out 0.2s;
+}
+
+.arrow-svg:hover{
+    transform: scale(1.2);
+}
+
+.scroll-home-page::after{
+    transition: transform ease-in-out 0.2s;
+}
+
+.scroll-page-div >a{
+    margin: 0px;
+}
+
+.scroll-page-div{
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1%;
+}

@@ -2,9 +2,15 @@
 <html>
 
 <head>
+    
     <title>Home</title>
     <meta charset="utf-8" lang="it">
+    <link rel="stylesheet" href="./pages/css/mobile.css" type="text/css">
     <link rel="stylesheet" href="./pages/css/style.css" type="text/css">
+    <link rel="stylesheet" href="./pages/css/home.css" type="text/css">
+    <link rel="stylesheet" href="./pages/css/navbar.css" type="text/css">
+    <link rel="stylesheet" href="./pages/css/arrow.css" type="text/css">
+    <link rel="stylesheet" href="./pages/css/footer.css" type="text/css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="shortcut icon" type="image/png" href="./img/GreenSchoolsFavIcon/GS-PROFILE-IMAGE.jpg">
@@ -12,31 +18,30 @@
 </head>
 
 <body>
-    <!--<div class="loader">
-        <img src="./img/GreenSchoolsLoadingAnimation/animation.gif" alt="loading-animation">
-    </div>-->
+
     <div class="loader hidden">
         <img src="./img/GreenSchoolsLoadingAnimation/animation-home.gif" alt="loading-animation">
     </div>
 
-    <div class="nav-bar" align="center " id="top-page" style="  background-color: #00BF59">
-        <nav>
-            <ul>
-                <li><a href="./pages/html/project.html "><img  src="./img/GreenSchoolsSiteIcon/prj.svg" alt="The Project Image"><p>Il Progetto</p></a></li>
-                <li><a href="./pages/html/study.html "><img  src="./img/GreenSchoolsSiteIcon/study.svg" alt="The Study Image"><p>Lo Studio</p></a></li>
-                <li><a href="./index.html "><img src="./img/GreenSchoolsSiteIcon/small-leaf-border.svg" alt="leaf" class="home-leaf-img"><p>Home</p></a></li>
-                <li><a href="./pages/html/goodPractise.html "><img src="./img/GreenSchoolsSiteIcon/goodpract.svg" alt="The Good Practice Image"><p>Buone Pratiche</p></a></li>
-                <li><a href="./pages/html/game.html"><img src="./img/GreenSchoolsSiteIcon/game.svg" alt="The Game Image"><p>Il Gioco</p></a></li>
-            </ul>
-        </nav>
-    </div>
-    <!--SISTEMARE LEGGERO SPOSTAMENTO TESTO DELLA FOGLIA-->
-    <!--
-    <div class="go-top-image">
-    <a href="#top-page"><img src="./img/GreenSchoolsGeneralcon/toTop.svg" alt="button-toTop"></a>
-    </div>
-    -->
+    <!--class="nav-bar" align="center " id="top-page" style="  background-color: #00BF59;">-->
+    <nav class="nav" style="background-color: #00BF59;">
+        
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <img src="./img/GreenSchoolsButton/3lines.png" alt="3lines">
+        </label>
+        <label class="logo"><a href="http://www.iisvittorioveneto.edu.it/2018" target="_blank"><img src="./img/GreenSchoolsButton/iisvv.png" alt=""></a></label>
 
+        <ul style="background-color: #00BF59">
+            <li><a class="act nav-link" href="./index.html">Home</a></li>
+            <li><a class="nav-link" href="./pages/html/project.html">Il Progetto</a></li>
+            <li><a class="nav-link" href="./pages/html/study.html">Lo Studio</a></li>
+            <li><a class="nav-link" href="./pages/html/goodPractise.html">Buone Pratiche</a></li>
+            <li><a class="nav-link" href="./pages/html/game.html">Il Gioco</a></li>
+        </ul>
+
+    </nav>
+    
 
     <div>
         <p class="header-title-top" style="margin-bottom: 10px; margin-top: 50px;">GREEN</p>
@@ -44,23 +49,31 @@
             <img src="./img/GreenSchoolsGeneralcon/leaf.svg" alt="home-leaf" class="home-svg">
         </div>
         <p class="header-title-bottom" style="margin-top: 10px;">SCHOOLS</p>
-        <!--<a href="#top-page" class="go-top-image"  style=" margin-left: 90%; margin-top: 2%"><img src="img/GreenSchoolsGeneralcon/go-top-image.svg" alt="arrow-top"></a>-->
+                
+        <div class="edition-text">
+            <p>COMPETITION IX</p>
+        </div>
 
         <p class="slider-info" style="color: #00BF59;">SCORRI PER INIZIARE</p>
         <div class="scroll-page-div" >
             <a href="#home-text" class="scroll-home-page"><img src="./img/GreenSchoolsGeneralcon/arrow-green.svg" alt="arrow" class="arrow-svg"></a>
         </div>
+        
     </div>
     
     <div class = "home-text" style="padding-bottom: 3%;">
-        <h1  id="home-text" data-aos="zoom-in">Di cosa si tratta?</h1>
-        <p style="padding-bottom: 1%;" data-aos="fade-left"> Si tratta di una competizione della provincia di Treviso, <br> dove le scuole iscritte 
+
+        <span id="home-text"></span>
+
+        <h1 data-aos="zoom-in">Di cosa si tratta?</h1>
+
+        <p style="padding-bottom: 1%;" data-aos="fade-in"> Si tratta di una competizione della provincia di Treviso, <br> dove le scuole iscritte 
             si sfidano per sensibilizzare <br>le persone sull’importanza di un mondo eco-sostenibile.
         </p>
 
         <div class="slideshow-container" data-aos="fade-in">
 
-            <div class="mySlides fade" data-aos="slide-right">
+            <div class="mySlides fade">
                 <img class="slideshow-image" src="./img/GreenSchoolsTeam/general/1st.png" style="width:100%">
             </div>
             
@@ -81,16 +94,38 @@
                 <span class="dot"></span>
                 <span class="dot"></span>
                 <span class="dot"></span>
-    
             </div>
-
-        <!--<img src="./img/GreenSchoolsTeam/PROVA.png" alt="DA-FARE">-->
-        <!--<div class="separate-line"></div>-->
-        <p data-aos="fade-right"> Attraverso degli incontri rivolti soprattutto agli studenti,<br> 
+                
+        <p data-aos="fade-down"> Attraverso degli incontri rivolti soprattutto agli studenti,<br> 
             ma che possono raggiungere il mondo attraverso <br>
             presentazioni, siti Web, social media e volantini. 
         </p>
+
     </div>
+
+    <div class="other-resources">
+
+        <h1 data-aos="fade-down">Altre risorse</h1>
+        <p data-aos="zoom-in">Con i seguenti collegamenti sarà possibile usufruire di risorse aggiuntive.</p>
+        <div class="resources-container">
+
+            <button class="button-link-other-resources center" data-aos="fade-up">
+                <a href="./pages/html/goodPractise.html#attivitàdiritorno" class="button-download-other-resources">Attività di ritorno</a>
+            </button>
+
+            <button class="button-link-other-resources center" data-aos="fade-up">
+                <a href="./pages/html/project.html#chi-siamo" class="button-download-other-resources">Chi siamo</a>
+            </button>
+
+            <button class="button-link-other-resources center" data-aos="fade-up">
+                <a href="./pages/html/study.html#documentazione" class="button-download-other-resources">Documentazione</a>
+            </button>
+           
+
+        </div>
+    
+    </div>
+
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
 
@@ -105,7 +140,7 @@
             <div class = "footer-col">
                 <h4>scuola</h4>
                 <ul>
-                    <li class="footer-link"> <a href="http://www.iisvittorioveneto.edu.it/2018" target="_blank">I.I.S. "Città della Vittoria"</a></li>
+                    <li class="footer-link"> <a href="http://www.iisvittorioveneto.edu.it/2018" target="_blank"> <p class="link-text">"I.I.S. "Città della Vittoria"</p> </a></li>
                     <li>Via Vittorio Emanuele II, 97</li>
                     <li>31029 Vittorio Veneto, TV</li>
                 </ul>
@@ -116,8 +151,8 @@
                 <ul>
 
                     <!--<li class="footer-link"><a href="" target="_blank">Progetto GreenSchools</a></li>-->
-                    <li class="footer-link">Progetto <a href="https://www.trevisoscuole.it/green-schools-competition-2-2/" target="_blank">Green Schools</a></li>
-                    <li class="footer-link">Collaborazione con la <a href="https://www.trevisoscuole.it/" target="_blank">Provincia di Treviso</a></li>
+                    <li class="footer-link">Progetto <a href="https://www.trevisoscuole.it/green-schools-competition-2-2/" target="_blank"><p class="link-text">Green Schools</p></a></li>
+                    <li class="footer-link">Collaborazione con la <a href="https://www.trevisoscuole.it/" target="_blank"><p class="link-text">Provincia di Treviso</p></a></li>
 
                 </ul>
             </div>
@@ -127,12 +162,10 @@
                 <ul>
 
                     <!--METTERE LINK ALLE PAGINE DEI SOCIAL-->
-                    <li class="footer-link"><a href="" target="_blank"></a></li>
-                    <a href="https://www.facebook.com/profile.php?id=100077519273791" target="_blank"><img src="./img/GreenSchoolsSocialIcon/svg/facebook.svg" alt="facebook" class="social-icon"></a>
-                    <a href="https://www.instagram.com/energyteamittvv/" target="_blank"><img src="./img/GreenSchoolsSocialIcon/svg/instagram.svg" alt="instagram" class="social-icon"></a>
+                    <a href="https://www.facebook.com/profile.php?id=100077519273791" target="_blank"><img src="./img/GreenSchoolsSocialIcon/svg/facebook.svg" alt="facebook" class="social-icon under"></a>
+                    <a href="https://www.instagram.com/energyteamittvv/" target="_blank"><img src="./img/GreenSchoolsSocialIcon/svg/instagram.svg" alt="instagram" class="social-icon under"></a>
                     <a href="https://twitter.com/EnergyTeamITTVV" target="_blank"><img src="./img/GreenSchoolsSocialIcon/svg/twitter.svg" alt="twitter" class="social-icon"></a>
                     <a href="https://www.tiktok.com/@energyteamiisvv" target="_blank"><img src="./img/GreenSchoolsSocialIcon/svg/tiktok.svg" alt="tik-tok" class="social-icon"></a>
-
 
                 </ul>
             </div>
@@ -150,15 +183,21 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <!----------------------------------------------------------------------------------------->
+    
 
-    <script type="text/javascript" src="./pages/js/responsive-design-fixing-header-title"></script>
+    
+    <!--<script type="text/javascript" src="./pages/js/responsive-design-fixing-header-title"></script>
 
-    <script type="text/javascript" src="./pages/js/responsive-design-fixing-header-title.js"></script>
+    <script type="text/javascript" src="./pages/js/responsive-design-fixing-header-title.js"></script>-->
 
-    <script type="text/javascript" src="./pages/js/loading-animation.js"></script>
+    <script type="text/javascript" src="./pages/js/loading-animation.js"></script>-
+
+    <script type="text/javascript" src="./pages/js/toggle-menu.js"></script>
 
     <script type="text/javascript" src="./pages/js/slideshow.js"></script>
 
     <script type="text/javascript" src="./pages/js/go-top-image-fade-animation.js"></script>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 
 </html>

@@ -1,0 +1,288 @@
+/*.sign-goodPract{
+    width: 30%;
+    border-radius: 10px;
+}*/
+
+.goodPract-svg{
+    margin-top: 150px;
+}
+
+.goodPract-title{
+    color: #a444f8;
+    text-align: center;
+    font-weight: bolder;
+    font-family: Raleway-Bold;
+    font-size: 100px;
+    margin: 10px;
+}
+
+.goodPract-text h1{
+    text-align: center;
+    color: white;
+    font-family: Raleway-Bold;
+    font-size: 90px;
+    padding-top: 1%;
+}
+
+.goodPract-text p{
+    padding-bottom: 3%;
+    text-align: center;
+    color: white;
+    font-family: Raleway-Light;
+    font-size: 25px;
+    line-height: 150%;
+}
+
+.presentation-title{
+    color: #00B1FF;
+    cursor: default;
+    text-align: center;
+    font-weight: bolder;
+    font-family: Raleway-Bold;
+    font-size: 50px;
+    margin: 10px;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+
+.blog-posts{
+    font-family: Raleway-Light;
+    width: min(1600px, 100%);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+  
+.post{
+    width: calc(33% - 10px);
+    overflow: hidden;
+}
+  
+.post-img{
+    width: 100%;
+    border-radius: 6px;
+    transition: .3s linear;
+}
+  
+.post-content{
+    background-color: white;
+    margin: 0 20px;
+    padding: 30px;
+    border-radius: 6px;
+    transform: translateY(-60);
+    transition: .3s linear;
+}
+  
+.post-content h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+  
+.descrizione{
+    font-size: 18px;
+    color: #00B1FF;
+}
+  
+.post .post-img{
+    transform: translateY(20px);
+}
+  
+.post .post-content{
+    transform: translateY(-80px);
+}
+  
+.post:hover .post-content{
+    transform: translateY(-10px);
+      
+}
+  
+  
+.body-post{
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.concrete-actions-section{
+    background-color: #a444f8;
+}
+
+/* START phase CSS */
+ 
+.phase-section h1{
+    text-align: center;
+    color: #ff6d4b;
+    font-family: Raleway-Bold;
+    font-size: 75px;
+}
+   
+.phase-content h3{
+    font-family: Raleway-SemiBold;
+    font-size: 18px;
+    margin: 2px;
+    color: white;
+}
+   
+.phase-content p{
+    font-family: Raleway-Regular;
+    font-size: 18px;
+    margin: 2px;
+    padding-bottom: 0%;
+    color: #a444f8;
+}
+   
+.phase-section{
+  
+    min-height: 10vh;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 100px;
+    padding-top: 5px;
+   
+}
+   
+.phase-items{
+   
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 0%;
+}
+   
+.phase-item{
+    margin-bottom: 70px;
+    width: 100%;
+  
+}
+   
+   
+.phase-item:nth-child(odd){
+   
+    padding-right: calc(50% + 30px);
+   
+}
+   
+.phase-item:nth-child(even){
+   
+    padding-Left: calc(50% + 30px);
+   
+}
+  
+.dxphase, .sxphase{
+    left: auto;
+}
+   
+   
+.phase-content{
+   
+    background-color:  #ffffff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+  
+}
+  
+.phase-image{
+  
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}
+  
+.phase-text{
+    text-align: left;
+    width: 120%;
+    padding-left: 5%;
+}
+  
+.phase-section-title{
+    padding-top: 5%;
+    color: #ff6d4b;
+    font-size: 100px;
+    text-align: center;
+    font-family: Raleway-Bold;
+}
+
+.goodPract-pres-text, .attdiritorno p{
+    text-align: center;
+    color: #a444f8;
+    font-family: Raleway-Light;
+    font-size: 25px;
+    line-height: 150%;
+}
+
+.attdiritorno p{
+    text-align: center;
+    color: #a444f8;
+    font-family: Raleway-Light;
+    font-size: 25px;
+    line-height: 150%;
+    padding-bottom: 3%;
+}
+
+.attdiritorno h1{
+    text-align: center;
+    color: #a444f8;
+    font-family: Raleway-Bold;
+    font-size: 100px;
+    margin: 10px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+/*Attività di ritorno*/
+.post{
+    width: calc(40% - 10px);
+    overflow: hidden;
+}
+  
+.post-img{
+    width: 100%;
+    border-radius: 6px;
+    transition: .3s linear;
+}
+
+.post-content{
+    background-color: white;
+    margin: 0 20px;
+    padding: 30px;
+    border-radius: 6px;
+    transform: translateY(-60);
+    transition: .3s linear;
+}
+  
+.post-content h3{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+  
+.descrizione{
+    font-size: 15px;
+    color: #a444f8;
+}
+  
+.post .post-img{
+    transform: translateY(20px);
+}
+  
+.post .post-content{
+    transform: translateY(-80px);
+}
+  
+.post:hover .post-content{
+    transform: translateY(-10px);
+      
+}
+  
+  
+.body-post{
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
