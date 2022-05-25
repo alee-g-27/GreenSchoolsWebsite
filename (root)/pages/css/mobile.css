@@ -159,10 +159,21 @@
       line-height: 150%;
     }
   
-  
     .presentation-title{
       padding-top: 10% !important;
       font-size: 25px !important;
+    }
+
+    .goodPract-title-pres{
+      font-size: 37px !important;
+    }
+
+    .goodPract-pres-text{
+      font-size: 23px !important;
+    }
+
+    .presentation-text{
+      font-size: 40px !important;
     }
   
     .blog-posts{
@@ -199,7 +210,7 @@
     .social-icon{
       margin-right: 20%;
       transform: scale(2.7) !important;
-      margin-bottom: 20%;
+      margin-bottom: 30%;
     }
   
     .under{
@@ -476,7 +487,7 @@
     }
   
     .goodPract-svg{
-      padding-top: 6%;
+      padding-top: 23%;
       padding-bottom: 5%;
       width: 80% !important;
     }
@@ -517,6 +528,7 @@
       justify-content: center;
       width: 90%;
       margin: auto;
+
     }
 
     .fotovoltaci h1{
@@ -539,6 +551,20 @@
       font-size: 20px !important;
     }
 
+    .title-sistemadiacc{
+      font-size: 37px !important;
+    }
+
+    .consumi-scuola img{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 90%;
+      margin: auto;
+      border-radius: 10px;
+    }
+
     .text-fotovoltaici{
       font-size: 20px !important;
     }
@@ -556,6 +582,7 @@
 
     .download-section{
       padding-bottom: 50% !important;
+      padding-top: 30% !important;
     }
 
     .download-section h1{
@@ -568,6 +595,13 @@
     .download-button{
       width: 50% !important;
     }
+
+    .installation-tutorial h1{
+      font-size: 40px;
+      inline-size: auto;
+    }
+
+
     
   }
   

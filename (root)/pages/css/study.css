@@ -39,6 +39,17 @@
     padding-top: 2%;
 }
 
+.presentation-text{
+    color: #00B1FF;
+    cursor: default;
+    text-align: center;
+    font-family: Raleway-Light;
+    font-size: 25px;
+    margin: 10px;
+    padding-bottom: 2%;
+    padding-top: 1%;
+}
+
 .blog-posts{
     font-family: Raleway-Light;
     width: min(1200px, 100%);
@@ -46,7 +57,7 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    cursor: pointer;
+    cursor: default;
 }
   
 .post{
@@ -105,6 +116,7 @@
     font-size: 90px;
     color: #00B1FF;
     text-align: center;
+    padding-top: 5%;
 }
 
 .text-documentazione{
@@ -116,31 +128,16 @@
     color: #00B1FF;
 }
 
-.consumi-scuola h1{
-    color: #00B1FF;
-    font-family: Raleway-Bold;
-    font-size: 50px;
-    text-align: center;
-}
-
-.consumi-scuola p{
-    color: #00B1FF;
-    font-family: Raleway-Light;
-    font-size: 25px;
-    text-align: center;
-    margin-left: 15%;
-    margin-right: 15%;
-}
-
 .fotovoltaici h1{
-    color: #00B1FF;
+    padding-top: 5%;
+    color: #ffffff;
     font-family: Raleway-Bold;
-    font-size: 50px;
+    font-size: 90px;
     text-align: center;
 }
 
 .fotovoltaici p {
-    color: #00B1FF;
+    color: #ffffff;
     font-family: Raleway-Light;
     font-size: 25px;
     text-align: center;
@@ -160,4 +157,40 @@
 .fotovoltaici{
     align-items: center;
     text-align: center;
+}
+
+.download-section{
+    padding-bottom: 8%;
+}
+
+.download-button{
+    padding-top: 24%;
+    border-radius: 100px;
+    transition: ease-in-out 0.4s;
+    overflow: hidden;
+    border: none;
+    background-color: #ffffff;
+    display: inline-block;
+    text-align: center;
+    outline: none;
+    font-family: Raleway-Light;
+    font-size: 27px;
+    padding: 20px;
+    /*box-shadow: 0px 7px rgb(112, 112, 112);*/
+}
+  
+.download-button > a{
+    margin: 0px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.download-button{
+
+    background-color: #00b1ff;
+
+}
+
+.download-button:hover{
+    transform: scale(1.1) !important;
 }

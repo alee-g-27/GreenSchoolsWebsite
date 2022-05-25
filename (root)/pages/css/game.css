@@ -37,12 +37,17 @@
     margin: 10px;
 }
 
-.game-text h1, .download-section h1{
+.game-text h1, .download-section h1, .installation-tutorial h1{
     text-align: center;
     color: white;
     font-family: Raleway-Bold;
     font-size: 90px;
     padding-top: 1%;
+}
+
+.installation-tutorial h1{
+    padding-top: 10% !important;
+    font-size: 50px;
 }
 
 .game-text p{
@@ -82,7 +87,8 @@
 }
 
 .download-section{
-    padding-bottom: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .download-button{
